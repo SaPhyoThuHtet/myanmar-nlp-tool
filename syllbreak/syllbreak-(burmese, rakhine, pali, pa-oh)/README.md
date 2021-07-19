@@ -1,4 +1,4 @@
-Burmese Syllable Unicode
+Syllable Unicode
 =====================
 
 **How to run**: perl syllbreak-unicode.pl input > output
