@@ -23,6 +23,7 @@ Burmese Syllable Unicode
 **PaO-Oh Language**
 
 **Input:**: နာꩻ အုံ‌‌ဟောဝ်နေဟောဝ်း။
+
 **Output**:နာꩻ   အုံ ‌ ‌ ဟောဝ် နေ ဟောဝ်း ။<br /> <br />
 
 
