@@ -4,7 +4,7 @@ import pandas as pd
 import re
 
 select = pd.DataFrame()
-select['topics'] = ['chracter-tokenization', 'syllable-tokenization']
+select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'detect-email']
 option = st.sidebar.selectbox(
     'Select one to explore',select['topics'])
 
@@ -17,3 +17,8 @@ if(option == "chracter-tokenization"):
 if(option == "syllable-tokenization"):
     result = re.sub(r"(([A-Za-z0-9]+)|[က-အ|ဥ|ဦ](င်္|[က-အ][့း]*[်]|္[က-အ]|[ါ-ှႏꩻ][ꩻ]*){0,}|.)",r"\1 ", user_input)    
     st.write("Output:",result)
+    
+if(option == "detect-email"):
+     emails = re.findall(r'[\w\.]+@[\w]+(?:\.[\w]+)+', user_input.strip())
+     result = emails_list.extend(emails)
+     st.write("Emails:", result)
