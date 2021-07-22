@@ -4,8 +4,8 @@ import pandas as pd
 import re
 
 st.sidebar.image(
-    "images/sapth.png",
-    width=100,
+    "images/Peacock.png",
+    #width=100,
 )
 select = pd.DataFrame()
 select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'detect-email']
