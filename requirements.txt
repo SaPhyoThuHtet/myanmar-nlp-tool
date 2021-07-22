@@ -1,4 +1,2 @@
 pandas
-re
 streamlit
-streamlit-lottie
