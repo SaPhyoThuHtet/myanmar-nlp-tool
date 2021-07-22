@@ -5,7 +5,7 @@ import re
 
 st.sidebar.image(
     "images/Peacock.png",
-    width=300,
+    width=10%,
 )
 select = pd.DataFrame()
 select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'detect-email']
