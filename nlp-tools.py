@@ -7,14 +7,14 @@ st.sidebar.image(
     "images/peacock-3.png",
     width=200,
 )
-st.sidebar.markdown("<h3 style='text-align: center;'>NLP Tools by Sa Phyo Thu Htet</h1>", unsafe_allow_html=True)
+st.sidebar.markdown("<h3 style='text-align: center;'>NLP Tools</h1>", unsafe_allow_html=True)
 
 select = pd.DataFrame()
 select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'detect-email']
 option = st.sidebar.selectbox(
     '',select['topics'])
 
-
+st.sidebar.write("Copyrights@SaPhyoThuHtet")
 
 if(option == "chracter-tokenization"):
     user_input = st.text_input("Input", "ရွှံ့ပေါ်ရှဉ့်ပြေး ရှည့်မွှေး ရွှံ့မလူး")
