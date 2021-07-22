@@ -18,11 +18,12 @@ st.sidebar.write("Copyrights@SaPhyoThuHtet")
 
 if(option == "chracter-tokenization"):
     user_input = st.text_input("Input", "ရွှံ့ပေါ်ရှဉ့်ပြေး ရှည့်မွှေး ရွှံ့မလူး")
-    result = re.sub(r"([^\s])",r"\1 ", user_input)    
+    result = re.sub(r"([^\s])",r"\1 ", user_input)   
     st.write("Output:",result)
     
 if(option == "syllable-tokenization"):
     st.markdown("<h4 style='text-align: center;'>Syllable Tokenization (Burmese, Pali(Myanmar), Rakhine, Pa-Oh)</h4>", unsafe_allow_html=True)
+    st.write("\n")
     user_input = st.text_input("Input", "ရွှံ့ပေါ်ရှဉ့်ပြေး ရှည့်မွှေး ရွှံ့မလူး")
     result = re.sub(r"(([A-Za-z0-9]+)|[က-အ|ဥ|ဦ](င်္|[က-အ][့း]*[်]|္[က-အ]|[ါ-ှႏꩻ][ꩻ]*){0,}|.)",r"\1 ", user_input)    
     st.write("Output:",result)
