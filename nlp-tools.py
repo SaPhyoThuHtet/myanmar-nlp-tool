@@ -3,6 +3,10 @@ import numpy as np
 import pandas as pd
 import re
 
+st.sidebar.image(
+    "images/sapth.png",
+    width=300,
+)
 select = pd.DataFrame()
 select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'detect-email']
 option = st.sidebar.selectbox(
