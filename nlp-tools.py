@@ -7,6 +7,8 @@ st.sidebar.image(
     "images/peacock-3.png",
     width=200,
 )
+st.sidebar.write("NLP Tools")
+
 select = pd.DataFrame()
 select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'detect-email']
 option = st.sidebar.selectbox(
