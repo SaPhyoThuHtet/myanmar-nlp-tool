@@ -4,7 +4,7 @@ import pandas as pd
 import re
 
 st.sidebar.image(
-    "images/Peacock.png",
+    "images/logo.png",
     width=100,
 )
 select = pd.DataFrame()
