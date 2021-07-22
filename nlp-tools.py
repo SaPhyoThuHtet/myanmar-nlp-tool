@@ -20,4 +20,4 @@ if(option == "syllable-tokenization"):
     
 if(option == "detect-email"):
      emails = re.findall(r'[\w\.]+@[\w]+(?:\.[\w]+)+', user_input.strip())
-     st.write("Emails:", emails)
+     st.write("Emails:", [].extend(emails))
