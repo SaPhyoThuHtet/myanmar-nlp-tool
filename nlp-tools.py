@@ -8,12 +8,11 @@ st.sidebar.image(
     width=200,
 )
 st.sidebar.markdown("<h3 style='text-align: center;'>NLP Tools</h1>", unsafe_allow_html=True)
-st.write("\n")
 
 select = pd.DataFrame()
 select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'detect-email']
 option = st.sidebar.selectbox(
-    'Select one to explore',select['topics'])
+    '',select['topics'])
 
 
 
