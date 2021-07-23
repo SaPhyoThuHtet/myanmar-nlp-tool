@@ -53,4 +53,4 @@ if (option == 'burmese2braille(Muu Haung)'):
             result += i
             
      st.write("Muu Haung:", user_input)
-     st.write("Output": result)
+     st.write("Output:", result)
