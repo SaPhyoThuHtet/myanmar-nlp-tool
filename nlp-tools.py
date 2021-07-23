@@ -10,7 +10,7 @@ st.sidebar.image(
 st.sidebar.markdown("<h3 style='text-align: center;'>NLP Tools</h3>", unsafe_allow_html=True)
 
 select = pd.DataFrame()
-select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'detect-email']
+select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'syllbreak-zawgyi', 'detect-email']
 option = st.sidebar.selectbox(
     '',select['topics'])
 
@@ -27,6 +27,12 @@ if(option == "syllable-tokenization"):
     st.write("Description: Syllable break for Burmese, Pali (Myanmar), Rakhine, Pa-Oh, Word break for English, Char break for other language")
     user_input = st.text_input("Input", "ရွှံ့ပေါ်ရှဉ့်ပြေး ရှည့်မွှေး ရွှံ့မလူး")
     result = re.sub(r"(([A-Za-z0-9]+)|[က-အ|ဥ|ဦ](င်္|[က-အ][့း]*[်]|္[က-အ]|[ါ-ှႏꩻ][ꩻ]*){0,}|.)",r"\1 ", user_input)    
+    st.write("Output:",result)
+    
+if (option == 'syllbreak-zawgyi'):
+    st.write("Description: Syllable break for Burmese in Zawgyi Encoding")
+    user_input = st.text_input("Input", "သီဟိုဠ္မွ ဉာဏ္ႀကီးရွင္သည္ အာယုဝၯနေဆးၫႊန္းစာကို ဇလြန္ေဈးေဘး ဗာဒံပင္ထက္ အဓိ႒ာန္လ်က္ ဂဃနဏဖတ္ခဲ့သည္။ေဆာင္")
+    result = re.sub(r'(ေ*ျ*ႀ*ၿ*ၾ*[က-အ|႐|ႏ|ဥ|ဦ|႒]([က-အ]့*္[့း]*|[ါ-ာ]|[ိ-ူ]|[ဲ-္]|်|[ြ-ှ]|[ၐ-ၽ]|[ႁ-ႎ]|[႑-႟]){0,}|.)',r'\1 ',user_input.strip())
     st.write("Output:",result)
     
 if(option == "detect-email"):
