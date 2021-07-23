@@ -45,4 +45,12 @@ if (option == 'burmese2braille(Muu Haung)'):
      user_input = st.text_input("Input", "မမကချစ်တယ် လို့ဆိုပါတယ်ရှင့်")
      user_input = re.sub(r'([က-အ])([ါ-ူ]|[က-အ]်)',r'\1အ\2',user_input.strip());
      user_input = re.sub(r'([က-အ]([ျ-ှ]){1,})',r'\1အ',user_input);
+     result = ""
+     for i in user_input:
+        if (i in dictionary.keys()):
+            result += dictionary[i]
+        else:
+            result += i
+            
      st.write("Muu Haung:", user_input)
+     st.write("Output": result)
