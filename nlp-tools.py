@@ -10,7 +10,7 @@ st.sidebar.image(
 st.sidebar.markdown("<h3 style='text-align: center;'>NLP Tools</h3>", unsafe_allow_html=True)
 
 select = pd.DataFrame()
-select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'syllbreak-zawgyi', 'detect-email']
+select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'syllbreak-zawgyi', 'detect-email', 'infix2posfix']
 option = st.sidebar.selectbox(
     '',select['topics'])
 
@@ -39,3 +39,8 @@ if(option == "detect-email"):
      user_input = st.text_input("Input", "ဒီနေ့တော့ phyothuhtet39@gmail.com ဆီကို mail  ပို့ရမယ်။ နေဉီး သူက Microsoft Mail phyothuhtet@studentambassadors.com ကို သုံးတာလားမေးကြည့်ပါဦး။ ငါ ayethida89.young@utycc.edu.mm  ကနေ ပို့လိုက်မယ်။")
      emails = re.findall(r'[\w\.]+@[\w]+(?:\.[\w]+)+', user_input.strip())
      st.write("Emails:",";".join(sorted(emails)))
+        
+ if (option == 'infix2posfix'):
+     user_input = st.text_input("Input", "4+5*2-888")
+     result = re.sub(r"(([\+\*\/\-])([0-9]+))",r"\3\2",user_input.strip())
+     st.write("Output:", result)
