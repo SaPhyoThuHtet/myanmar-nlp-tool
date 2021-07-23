@@ -40,7 +40,7 @@ if(option == "detect-email"):
      emails = re.findall(r'[\w\.]+@[\w]+(?:\.[\w]+)+', user_input.strip())
      st.write("Emails:",";".join(sorted(emails)))
         
- if (option == 'infix2posfix'):
+if (option == 'infix2posfix'):
      user_input = st.text_input("Input", "4+5*2-888")
      result = re.sub(r"(([\+\*\/\-])([0-9]+))",r"\3\2",user_input.strip())
      st.write("Output:", result)
