@@ -57,4 +57,5 @@ if (option == 'burmese2braille(Muu Haung)'):
             result += i
             
      st.write("Muu Haung:", user_input)
+     st.write("Back to Normal:", to_normal)
      st.write("Output:", result)
