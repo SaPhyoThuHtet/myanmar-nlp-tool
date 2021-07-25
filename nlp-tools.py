@@ -48,7 +48,7 @@ if (option == 'burmese2braille(Muu Haung)'):
      user_input = re.sub(r'([က-အ][ျ-ှ]*)([ံ]|[ေ]|[ါ-ူ]|[က-အ]်)',r'\1အ\2',user_input.strip())
      #user_input = re.sub(r'([က-အ]([ျ-ှ]){1,})',r'\1အ',user_input);
      #to_normal =  re.sub(r'([က-အ][ျ-ှ]{1,})အ',r'\1', user_input);
-     to_normal =  re.sub(r'([က-အ][ျ-ှ]*)အ([ံ])|[ေ]|[ါ-ူ]|[က-အ]်)',r'\1\2', user_input)
+     to_normal =  re.sub(r'([က-အ][ျ-ှ]*)အ([ံ]|[ေ]|[ါ-ူ]|[က-အ]်)',r'\1\2', user_input)
     
      result = ""
      for i in user_input:
