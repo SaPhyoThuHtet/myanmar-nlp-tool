@@ -47,7 +47,7 @@ if (option == 'burmese2braille(Muu Haung)'):
      user_input = st.text_input("Input","မသန်ပေမယ့်စွမ်းသည်")
      user_input = re.sub(r'([က-အ])([ံ]|[ေ]|[ါ-ူ]|[က-အ]်)',r'\1အ\2',user_input.strip())
      user_input = re.sub(r'([က-အ]([ျ-ှ]){1,})',r'\1အ',user_input);
-     user_input = re.sub(r'(([က-အ])([ွ])(ှ)အံ)',r'\1\3အံ\2',user_input);
+     #user_input = re.sub(r'(([က-အ])([ွ])(ှ)အံ)',r'\1\3အံ\2',user_input);
      to_normal =  re.sub(r'([က-အ][ျ-ှ]{1,})အ',r'\1', user_input);
      to_normal =  re.sub(r'([က-အ])အ([ံ]|[ေ]|[ါ-ူ]|[က-အ]်)',r'\1\2', to_normal)
     
