@@ -3,7 +3,7 @@ Syllable Unicode
 
 **How to run**: perl syllbreak-unicode.pl input > output
 
-**Burmese Syllbreak Unicode**: Syllable-break for Burmese, Rakhine, Pali-Burmese, Pa-Oh Unicode, Word-break for English, Character-break for other languages <br /> <br />
+**Syllbreak Unicode**: Syllable-break for Burmese, Rakhine, Pali-Burmese, Pa-Oh Unicode, Word-break for English, Character-break for other languages <br /> <br />
 
 
 **Input**: မင်္ဂလာပါ
