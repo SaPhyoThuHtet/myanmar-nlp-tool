@@ -5,7 +5,7 @@ Video Lectures: <br>
 [Day2](https://fb.watch/74sGw_I68_/)<br>
 
 ## Day 4
-[Day4](https://fb.watch/77qtriFQJu/)<br>
+[Day4 Video Lecture](https://fb.watch/77qtriFQJu/)<br>
 idiolects - variety spoken by an individual person<br> 
 sociolects - variety spoken by a group of people<br>
 dialects - variety spoken in a region <br> <br>
