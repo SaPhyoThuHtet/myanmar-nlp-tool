@@ -4,6 +4,15 @@ Video Lectures: <br>
 [Day1](https://fb.watch/74ssih0UHV/)<br>
 [Day2](https://fb.watch/74sGw_I68_/)<br>
 
+## Lesson3: Basic Lingustics Categories - Myanmar
+စနဲ့ဆ ကွဲအောင် မထွက်ကြဘူး (ဗိုက်ဆာတယ် နဲ့ ဗိုက်စာတယ်)<br>
+တစ်စိတ်ကို ကျ /ဒဇိတ်/ လို့ အသံထွက်ပေမယ့် တစ်ဆ ကိုကျ /ဒဇ/ လို့ အသံမထွက်ဘူး။<br>
+
+ဗမာစကားမှာ ဘာက word ဘာက word မဟုတ်ဘူးလဲဆိုတာ ပြောဖို့မလွယ်ဘူး။ Syntax ကလည်း 
+
+
+
+
 ## Day 4
 [Day4 Video Lecture](https://fb.watch/77qtriFQJu/)<br>
 ဆွစ်ဇာလန်နိုင်ငံဆိုရင် No Country Wide Official Language မရှိဘူး။<br>
