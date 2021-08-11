@@ -25,3 +25,18 @@ Lingua Franca - a language that is adopted as a common language between speakers
 Jargons - စကားအသုံးအနှုန်းတွေက သက်ဆိုင်ရာ Professional အချင်းချင်းပဲ နားလည်တဲ့ စကားမျိုးတွေ <br>
 Vernacular - A vernacular or vernacular language refers to the language or dialect that is spoken by people that are inhabiting a particular country or region.
 
+
+## Day 5
+မှတ်မိသလောက်ရေးထားတာပါ။
+မြန်မာ နဲ့ဗမာ Case: စစ်အစိုးရ လက်ထက်တုန်းက More Inclusive ဖြစ်အောင်ဆိုပြီး ဗမာ ကို မြန်မာလို့ပြောင်းပါတယ်။ ဒါပေမယ့် မြန်မာစာက ဗမာစာပဲ။ (Same Case like UK and Great Britian)
+အစိုးရတော်တော်များများက Language တစ်ခုထဲကို Nation Language အနေနဲ့ သုံးချင်နေကြတယ်။ 
+မြန်မာပြည်မှာ ဘာသာစကားတွေက 135 မျိုး မကပါဘူး။ 
+
+Burmese နဲ့ Thai မှာကျ Pronoun မှာ Politness ပေါင်းထည့်လို့ရ (E.g. ကျွန်တော်/ ငါ)
+English မှာကျ အဲ့လိုမျိုးမရ။ ဒါက English တွေက မယဉ်ကျေးလို့ မhote ဘူး။ ဖော်ပြဖို့ စကားမရှိတာ။
+
+Burmese မှာ ကျ အင်္ကျီပဲ English မှာကျ Shirt တို့ Blouse တို့ Sweater တို့ Jacket တို့ပါပြော။
+
+စပါး၊ ဆန်၊ ထမင်း၊ ကောက်ညှင်း (May be it is important to distinguish between  စပါး and ထမင်း etc in Burmese)
+The same scanerio for မွန်
+But ထိုင်းမှာကျ ထမင်းကော ဆန် ကော အတွက် စာလုံးက တစ်လုံးပဲရှိ။ (It is also important for Thai to distingusih between ဆန် and ထမင်း) 
