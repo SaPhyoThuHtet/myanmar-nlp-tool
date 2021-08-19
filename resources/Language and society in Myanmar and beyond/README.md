@@ -45,7 +45,9 @@ But ထိုင်းမှာကျ ထမင်းကော ဆန် ကေ�
 
 [Lesson7](https://fb.watch/7tE6_GL4k-/)<br>
 
-[Lesson8](https://fb.watch/7tEikzYhUC/)
+[Lesson8](https://fb.watch/7tEikzYhUC/)<br>
+
+[Lesson9](https://fb.watch/7tEmr3faK9/)<br>
 
 [Lesson10](https://fb.watch/7tE0HVCTFr/)<br>
 
