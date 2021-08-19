@@ -25,6 +25,7 @@ Vernacular - A vernacular or vernacular language refers to the language or diale
 
 
 ## Lesson 5
+[Lesson5 Video Lecture](https://fb.watch/7tEyZrC7U6/)
 မှတ်မိသလောက်ရေးထားတာပါ။
 မြန်မာ နဲ့ဗမာ Case: စစ်အစိုးရ လက်ထက်တုန်းက More Inclusive ဖြစ်အောင်ဆိုပြီး ဗမာ ကို မြန်မာလို့ပြောင်းပါတယ်။ ဒါပေမယ့် မြန်မာစာက ဗမာစာပဲ။ (Same Case like UK and Great Britian)
 အစိုးရတော်တော်များများက Language တစ်ခုထဲကို Nation Language အနေနဲ့ သုံးချင်နေကြတယ်။ 
