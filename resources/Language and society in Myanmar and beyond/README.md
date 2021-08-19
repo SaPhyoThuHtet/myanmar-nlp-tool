@@ -1,8 +1,8 @@
 ## Language and society in Myanmar and beyond
 
-Video Lectures: <br>
-[Day1](https://fb.watch/74ssih0UHV/)<br>
-[Day2](https://fb.watch/74sGw_I68_/)<br>
+Video Lectures and Notes: <br>
+[Lesson1 Video Lecture](https://fb.watch/74ssih0UHV/)<br>
+[Lesson2 Video Lecture](https://fb.watch/74sGw_I68_/)<br>
 
 ## Lesson3: Basic Lingustics Categories - Myanmar
 စနဲ့ဆ ကွဲအောင် မထွက်ကြဘူး (ဗိုက်ဆာတယ် နဲ့ ဗိုက်စာတယ်)<br>
@@ -11,10 +11,8 @@ Video Lectures: <br>
 ဗမာစကားမှာ ဘာက word ဘာက word မဟုတ်ဘူးလဲဆိုတာ ပြောဖို့မလွယ်ဘူး။ Syntax ကလည်း 
 
 
-
-
-## Day 4
-[Day4 Video Lecture](https://fb.watch/77qtriFQJu/)<br>
+## Lesson4
+[Lesson4 Video Lecture](https://fb.watch/77qtriFQJu/)<br>
 ဆွစ်ဇာလန်နိုင်ငံဆိုရင် No Country Wide Official Language မရှိဘူး။<br>
 
 colloquial  (non-standard)
@@ -26,7 +24,7 @@ Jargons - စကားအသုံးအနှုန်းတွေက သက်
 Vernacular - A vernacular or vernacular language refers to the language or dialect that is spoken by people that are inhabiting a particular country or region.
 
 
-## Day 5
+## Lesson 5
 မှတ်မိသလောက်ရေးထားတာပါ။
 မြန်မာ နဲ့ဗမာ Case: စစ်အစိုးရ လက်ထက်တုန်းက More Inclusive ဖြစ်အောင်ဆိုပြီး ဗမာ ကို မြန်မာလို့ပြောင်းပါတယ်။ ဒါပေမယ့် မြန်မာစာက ဗမာစာပဲ။ (Same Case like UK and Great Britian)
 အစိုးရတော်တော်များများက Language တစ်ခုထဲကို Nation Language အနေနဲ့ သုံးချင်နေကြတယ်။ 
@@ -41,14 +39,14 @@ Burmese မှာ ကျ အင်္ကျီပဲ English မှာကျ Shi
 The same scanerio for မွန်
 But ထိုင်းမှာကျ ထမင်းကော ဆန် ကော အတွက် စာလုံးက တစ်လုံးပဲရှိ။ (It is also important for Thai to distingusih between ဆန် and ထမင်း) 
 
-[Lesson6](https://fb.watch/7tEcxpJQXt/)<br>
+[Lesson6 Video Lecture](https://fb.watch/7tEcxpJQXt/)<br>
 
-[Lesson7](https://fb.watch/7tE6_GL4k-/)<br>
+[Lesson7 Video Lecture](https://fb.watch/7tE6_GL4k-/)<br>
 
-[Lesson8](https://fb.watch/7tEikzYhUC/)<br>
+[Lesson8 Video Lecture](https://fb.watch/7tEikzYhUC/)<br>
 
-[Lesson9](https://fb.watch/7tEmr3faK9/)<br>
+[Lesson9 Video Lecture](https://fb.watch/7tEmr3faK9/)<br>
 
-[Lesson10](https://fb.watch/7tE0HVCTFr/)<br>
+[Lesson10 Video Lecture](https://fb.watch/7tE0HVCTFr/)<br>
 
-[Lesson11](https://fb.watch/7tDYzNKTM1/)<br>
+[Lesson11 Video Lecture](https://fb.watch/7tDYzNKTM1/)<br>
