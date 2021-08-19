@@ -41,10 +41,12 @@ Burmese မှာ ကျ အင်္ကျီပဲ English မှာကျ Shi
 The same scanerio for မွန်
 But ထိုင်းမှာကျ ထမင်းကော ဆန် ကော အတွက် စာလုံးက တစ်လုံးပဲရှိ။ (It is also important for Thai to distingusih between ဆန် and ထမင်း) 
 
-[Lesson6] (https://fb.watch/7tEcxpJQXt/)<br>
+[Lesson6](https://fb.watch/7tEcxpJQXt/)<br>
 
-[Lesson7] (https://fb.watch/7tE6_GL4k-/)<br>
+[Lesson7](https://fb.watch/7tE6_GL4k-/)<br>
 
-[Lesson10] (https://fb.watch/7tE0HVCTFr/)<br>
+[Lesson8](https://fb.watch/7tEikzYhUC/)
+
+[Lesson10](https://fb.watch/7tE0HVCTFr/)<br>
 
 [Lesson11](https://fb.watch/7tDYzNKTM1/)<br>
