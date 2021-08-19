@@ -40,3 +40,7 @@ Burmese မှာ ကျ အင်္ကျီပဲ English မှာကျ Shi
 စပါး၊ ဆန်၊ ထမင်း၊ ကောက်ညှင်း (May be it is important to distinguish between  စပါး and ထမင်း etc in Burmese)
 The same scanerio for မွန်
 But ထိုင်းမှာကျ ထမင်းကော ဆန် ကော အတွက် စာလုံးက တစ်လုံးပဲရှိ။ (It is also important for Thai to distingusih between ဆန် and ထမင်း) 
+
+
+
+[Day11](https://fb.watch/7tDYzNKTM1/)<br>
