@@ -39,6 +39,10 @@ Burmese မှာ ကျ အင်္ကျီပဲ English မှာကျ Shi
 စပါး၊ ဆန်၊ ထမင်း၊ ကောက်ညှင်း (May be it is important to distinguish between  စပါး and ထမင်း etc in Burmese)
 The same scanerio for မွန်
 But ထိုင်းမှာကျ ထမင်းကော ဆန် ကော အတွက် စာလုံးက တစ်လုံးပဲရှိ။ (It is also important for Thai to distingusih between ဆန် and ထမင်း) 
+Burmese မှာကျ ဘုရား နဲ့ ဘုန်ကြီး ဆိုပြီး ကွဲပေမယ့် ထိုင်းမှာကျ ဘုရားနဲ့ ဘုန်းကြီးကို စကားလုံးတစ်လုံးထဲ သုံးပါတယ်။ 
+
+အဲ့တာကြောင့် ဘာသာစကားတစ်ခုကနေ တစ်ခုကို ဘာသာပြန်ဖို့ကခက်တာ။ 
+အားနာတယ်ဆိုတဲ့ စကားကို  English စာမှာ ဖော်ပြဖို့ခက်တယ်။ English တွေက အားမနာတတ်တာလား။  No ပါ ဖော်ပြဖို့ စကားလုံး English စာမှာ မရှိတာ။ သူတို့လည်း အားနာတတ်တာပဲ။
 
 [Lesson6 Video Lecture](https://fb.watch/7tEcxpJQXt/)<br>
 
