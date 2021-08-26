@@ -13,6 +13,13 @@ Video Lectures and Notes: <br>
 Syntax ကလည်း သတ်မှတ်ချက်ရှိပေမယ့် သတ်မှတ်ချက်နဲ့ ကွဲပြီးရေးလို့ရနေပြန်ကော။
 ဥပမာ- S O V လာရမှာဆိုပေမယ့် ဒီနေ့ ကျွန်တော် မဖတ်ရသေးဘူး သတင်းစာကို ဆိုရင်လည်း မှန်နေတာပဲ။
 
+### Pragmatics Example in Burmese
+Can you Open the door?
+=> The other person open the window?
+
+ပြတင်းပေါက် ဖွင့်လို့ရလား
+=> ရပါတယ်။
+
 
 ## Lesson4
 [Lesson4 Video Lecture](https://fb.watch/77qtriFQJu/)<br>
