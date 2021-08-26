@@ -23,7 +23,7 @@ Can you Open the door?
 
 ## Lesson4
 [Lesson4 Video Lecture](https://fb.watch/77qtriFQJu/)<br>
-ဆွစ်ဇာလန်နိုင်ငံဆိုရင် No Country Wide Official Language မရှိဘူး။<br>
+ဆွစ်ဇာလန်နိုင်ငံဆိုရင် Country Wide Official Language မရှိဘူး။<br>
 
 colloquial  (non-standard)
 Idiolects - variety spoken by an individual person<br> 
