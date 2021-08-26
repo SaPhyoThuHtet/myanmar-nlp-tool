@@ -1,4 +1,5 @@
 ## Language and society in Myanmar and beyond
+I am sharing lecture slides on Language and society in Myanmar and beyond. The course is instructed by Dr. Mathias Jenny and organized by the National Unity Government of Myanmar. All slides from Day1 to Day 12 are now available.
 
 Video Lectures and Notes: <br>
 [Lesson1 Video Lecture](https://fb.watch/74ssih0UHV/)<br>
