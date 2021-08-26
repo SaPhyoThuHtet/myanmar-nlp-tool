@@ -24,7 +24,6 @@ Can you Open the door?
 ## Lesson4
 [Lesson4 Video Lecture](https://fb.watch/77qtriFQJu/)<br>
 ဆွစ်ဇာလန်နိုင်ငံဆိုရင် Country Wide Official Language မရှိဘူး။<br>
-
 colloquial  (non-standard)
 Idiolects - variety spoken by an individual person<br> 
 Sociolects - variety spoken by a group of people<br>
@@ -40,7 +39,7 @@ Vernacular - A vernacular or vernacular language refers to the language or diale
 
 မြန်မာ နဲ့ဗမာ Case: စစ်အစိုးရ လက်ထက်တုန်းက More Inclusive ဖြစ်အောင်ဆိုပြီး ဗမာ ကို မြန်မာလို့ပြောင်းပါတယ်။ ဒါပေမယ့် တကယ့်တကယ်ကျ မြန်မာစာက ဗမာစာပဲ ဖြစ်နေတယ် Inclusive မဖြစ်ပါဘူး။ (Same Case like UK and Great Britian)
 
-အစိုးရတော်တော်များများက(Not only Myanmar) Language တစ်ခုထဲကို Nation Language အနေနဲ့ သုံးချင်နေကြတယ်။ 
+အစိုးရတော်တော်များများက Language တစ်ခုထဲကို Nation Language အနေနဲ့ သုံးချင်နေကြတယ်။ 
 
 မြန်မာပြည်မှာ ဘာသာစကားတွေက 135 မျိုး မကပါဘူး။ 
 
