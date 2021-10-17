@@ -34,7 +34,4 @@ if(option == "frequency-domain"):
     result = re.sub(r"(([A-Za-z0-9]+)|[က-အ|ဥ|ဦ](င်္|[က-အ][့း]*[်]|္[က-အ]|[ါ-ှႏꩻ][ꩻ]*){0,}|.)",r"\1 ", user_input)    
     st.write("Output:",result)
     
-            
-     st.write("Muu Haung:", user_input)
-     st.write("Back to Normal(Used RE):", to_normal)
-     st.write("Output:", result)
+           
