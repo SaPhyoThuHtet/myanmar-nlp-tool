@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import re
+import os
 
 st.sidebar.image(
     "images/peacock-3.png",
@@ -17,7 +18,10 @@ option = st.sidebar.selectbox(
 def file_selector(folder_path='.'):
     filenames = os.listdir(folder_path)
     selected_filename = st.selectbox('Select a file', filenames)
-    return os.path.join(selected_filename)
+    return os.path.join(folder_path, selected_filename)
+
+filename = file_selector()
+st.write('You selected `%s`' % filename)
 
 if(option == "time-domain"):
     filename = file_selector()
