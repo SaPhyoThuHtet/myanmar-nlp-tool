@@ -16,6 +16,11 @@ option = st.sidebar.selectbox(
 
 st.sidebar.write("Copyrights@SaPhyoThuHtet")
 
+if(option == "test"):
+    uploaded_file = st.file_uploader("Upload Files")
+    if uploaded_file is not None:
+        audio = uploaded_file.read()
+
 if(option == "chracter-tokenization"):
     user_input = st.text_input("Input", "အမုန်းမပွားရဘူးနော်")
     result = re.sub(r"([^\s])",r"\1 ", user_input)   
