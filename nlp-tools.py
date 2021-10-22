@@ -2,8 +2,8 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import re
-import librosa
-from pydub import AudioSegment
+#import librosa
+#from pydub import AudioSegment
 
 st.sidebar.image(
     "images/peacock-3.png",
@@ -18,11 +18,13 @@ option = st.sidebar.selectbox(
 
 st.sidebar.write("Copyrights@SaPhyoThuHtet")
 
-if(option == "test"):
+"""if(option == "test"):
     uploaded_file = st.file_uploader("Upload Files")
     if uploaded_file is not None:
         audio = uploaded_file.read()
         flac_tmp_audio_data = AudioSegment.from_file(audio)
+        flac_tmp_audio_data.export(file_path.name.replace(file_path.suffix, "") + ".wav", format="wav")"""
+
 
 if(option == "chracter-tokenization"):
     user_input = st.text_input("Input", "အမုန်းမပွားရဘူးနော်")
