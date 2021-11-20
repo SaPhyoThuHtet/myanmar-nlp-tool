@@ -1,4 +1,4 @@
-# detect email
+ # detect email
 # 15.10.2020 Modified:
 # How to run: python detect-email.py input > result
 import sys
