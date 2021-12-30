@@ -10,7 +10,10 @@ st.sidebar.image(
     width=200,
 )
 st.sidebar.markdown("<h3 style='text-align: center;'>NLP Tools</h3>", unsafe_allow_html=True)
-
+select = pd.DataFrame()
+select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'syllbreak-zawgyi', 'detect-email', 'burmese2braille(Muu Haung)']
+option = st.sidebar.selectbox(
+    '',select['topics'])
 
 
 st.sidebar.write("Copyrights@SaPhyoThuHtet")
