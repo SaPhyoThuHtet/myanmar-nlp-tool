@@ -11,19 +11,9 @@ st.sidebar.image(
 )
 st.sidebar.markdown("<h3 style='text-align: center;'>NLP Tools</h3>", unsafe_allow_html=True)
 
-"""select = pd.DataFrame()
-select['topics'] = ['sound', 'chracter-tokenization', 'syllable-tokenization', 'syllbreak-zawgyi', 'detect-email', 'burmese2braille(Muu Haung)']
-option = st.sidebar.selectbox(
-    '',select['topics'])"""
+
 
 st.sidebar.write("Copyrights@SaPhyoThuHtet")
-
-"""if(option == "test"):
-    uploaded_file = st.file_uploader("Upload Files")
-    if uploaded_file is not None:
-        audio = uploaded_file.read()
-        flac_tmp_audio_data = AudioSegment.from_file(audio)
-        flac_tmp_audio_data.export(file_path.name.replace(file_path.suffix, "") + ".wav", format="wav")"""
 
 
 if(option == "chracter-tokenization"):
