@@ -1,4 +1,5 @@
 import re
+import streamlit as st
 
 def multilingual_semi_syllable_break(user_input):
   # Multilingual Semi Syllabe Break (Sinhala, Tamil, Myanmar (Burmese), Shan, Rakhine, Mon, Paoh)
@@ -17,6 +18,8 @@ def valid_parantheses(user_input):
     else:
       if (stack):
         val = stack.pop()
+        st.write(val)
+        st.write(dic[i])
         if (val != dic[i]):
           return False
       else:
