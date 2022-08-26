@@ -1,5 +1,7 @@
 # nlp-tools
 
+ Name | Type | Time and Space Complexity
+| ------------- | ------------- |------------- |
 Character Break
 Syllable Break (Unicode)
 Syllable Break (Zawgyi)
