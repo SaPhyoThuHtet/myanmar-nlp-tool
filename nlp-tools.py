@@ -21,7 +21,7 @@ option = st.sidebar.selectbox(
 st.sidebar.write("Copyrights@SaPhyoThuHtet")
 
 if (option == "valid_parantheses"):
-    user_input = st.text_input("Input", "(aabb)]"
+    user_input = st.text_input("Input", "(aabb)]")
     result = utilities.valid_parantheses(user_input)
     st.write("Output:", result)
                                
