@@ -2,6 +2,8 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import re
+import utilities
+
 #import librosa
 #from pydub import AudioSegment
 
@@ -11,7 +13,7 @@ st.sidebar.image(
 )
 st.sidebar.markdown("<h3 style='text-align: center;'>NLP Tools</h3>", unsafe_allow_html=True)
 select = pd.DataFrame()
-select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'syllbreak-zawgyi', 'detect-email', 'burmese2braille(Muu Haung)']
+select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'syllbreak-zawgyi', 'multilingual_semi_syllable_break', 'detect-email', 'burmese2braille(Muu Haung)']
 option = st.sidebar.selectbox(
     '',select['topics'])
 
@@ -37,6 +39,11 @@ if (option == 'syllbreak-zawgyi'):
     user_input = st.text_input("Input", "သီဟိုဠ္မွ ဉာဏ္ႀကီးရွင္သည္ အာယုဝၯနေဆးၫႊန္းစာကို ဇလြန္ေဈးေဘး ဗာဒံပင္ထက္ အဓိ႒ာန္လ်က္ ဂဃနဏဖတ္ခဲ့သည္။ေဆာင္")
     result = re.sub(r'(ေ*ျ*ႀ*ၿ*ၾ*[က-အ|႐|ႏ|ဥ|ဦ|႒]([က-အ]့*္[့း]*|[ါ-ာ]|[ိ-ူ]|[ဲ-္]|်|[ြ-ှ]|[ၐ-ၽ]|[ႁ-ႎ]|[႑-႟]){0,}|.)',r'\1 ',user_input)
     st.write("Output:",result)
+    
+if (option == 'multilingual_semi_syllable_break'):
+    user_input = st.text_input("Input", "ඔබ සැමට නිදුක් නිරෝගී සුවය ලැබේවායි ප්‍රාර්ථනා කරමි.")
+    result = utilities.multilingual_semi_syllable_break(user_input)
+    st.write("Output:", result)
     
 if(option == "detect-email"):
      user_input = st.text_input("Input", "ဒီနေ့တော့ phyothuhtet39@gmail.com ဆီကို mail  ပို့ရမယ်။ နေဉီး သူက Microsoft Mail phyothuhtet@studentambassadors.com ကို သုံးတာလားမေးကြည့်ပါဦး။ ငါ ayethida89.young@utycc.edu.mm  ကနေ ပို့လိုက်မယ်။")
