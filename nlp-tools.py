@@ -44,7 +44,7 @@ if (option == 'multilingual_semi_syllable_break'):
     
     st.markdown("<h4 style='text-align: center;'>Multilingual Semi_syllable Break</h4>", unsafe_allow_html=True)
     st.write("\n")
-    st.write("Description: Semi-syllable-break for Burmese, Pali (Myanmar), Rakhine, Pa-Oh, Word break for English, Char break for other language")
+    st.write("Description: Semi-syllable-break for Sinhala, Tamil, Burmese (Myanmar), Pali (Myanmar), Shan, Rakhine, Pa-Oh, Word break for English, Char break for other language")
     user_input = st.text_input("Input", "ඔබ සැමට නිදුක් නිරෝගී සුවය ලැබේවායි ප්‍රාර්ථනා කරමි. நீங்கள் அனைவரும் மகிழ்ச்சியாகவும் ஆரோக்கியமாகவும் இருக்க வாழ்த்துகிறேன். အားလုံးပဲ စိတ်ချမ်းသာ ကိုယ်ကျန်းမာကြပါစေ။ လိၵ်ႈတႆ, ပအိုဝ်")
     result = utilities.multilingual_semi_syllable_break(user_input)
     st.write("Output:", result)
