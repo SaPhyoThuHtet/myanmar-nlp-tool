@@ -7,11 +7,11 @@ def multilingual_semi_syllable_break(user_input):
   return result
 
 def valid_parantheses(user_input):
-  open_brackets = {"{", "(", "["}
+  #open_brackets = {"{", "(", "["}
   dic = {"}":"{", ")":"(", "]":"["}
   stack = []
   for i in s:
-    if (i not in dic and i in open_brackets):
+    if (i not in dic):
                 stack.append(i)
                 #print(i)
             else:
