@@ -11,7 +11,7 @@ def valid_parantheses(user_input):
   dic = {"}":"{", ")":"(", "]":"["}
   stack = []
   
-  for i in s:
+  for i in user_input:
     if (i not in dic and i in open_brackets):
       stack.append(i)
     else:
