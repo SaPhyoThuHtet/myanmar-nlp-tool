@@ -18,7 +18,7 @@ def valid_parantheses(user_input):
     else:
       if (stack):
         val = stack.pop()
-        st.write(val)
+        st.write("Val", val)
         st.write(dic[i])
         if (val != dic[i]):
           return False
