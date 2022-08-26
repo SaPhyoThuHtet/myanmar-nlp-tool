@@ -13,14 +13,18 @@ st.sidebar.image(
 )
 st.sidebar.markdown("<h3 style='text-align: center;'>NLP Tools</h3>", unsafe_allow_html=True)
 select = pd.DataFrame()
-select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'syllbreak-zawgyi', 'multilingual_semi_syllable_break', 'detect-email', 'burmese2braille(Muu Haung)']
+select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'syllbreak-zawgyi', 'multilingual_semi_syllable_break', 'detect-email', 'burmese2braille(Muu Haung)', 'valid_parantheses']
 option = st.sidebar.selectbox(
     '',select['topics'])
 
 
 st.sidebar.write("Copyrights@SaPhyoThuHtet")
 
-
+if (option == "valid_parantheses"):
+    user_input = st.text_input("Input", "(aabb)]"
+    result = utilities.valid_parantheses(user_input)
+    st.write("Output:", result)
+                               
 if(option == "chracter-tokenization"):
     user_input = st.text_input("Input", "အမုန်းမပွားရဘူးနော်")
     result = re.sub(r"([^\s])",r"\1 ", user_input)   
@@ -75,3 +79,5 @@ if (option == 'burmese2braille(Muu Haung)'):
      st.write("Muu Haung:", user_input)
      st.write("Back to Normal(Used RE):", to_normal)
      st.write("Output:", result)
+    
+    
