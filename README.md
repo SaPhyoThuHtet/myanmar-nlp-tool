@@ -5,7 +5,7 @@
 Character Break| Regular Expression ||Can be used for any language.
 Syllable Break (Unicode)| Regular Expression || Can be used for Unicode data of Myanmar (Burmese), Rakhine, Pali, and Paoh.
 Syllable Break (Zawgyi)| Regular Expression || Can be used for Zawgyi Encoding Myanamr (Burmese) Language.
-Mutlilingual Semi-syllable Break (Unicode)| Regular Expression||<br>
+Mutlilingual Semi-syllable Break (Unicode)| Regular Expression||Can be used for Unicode Encoding Sinhala, Tamil, Myanmar (Burmese), Shan, Rakhine, Paoh, and Mon<br>
 
 ## Streamlit
 
