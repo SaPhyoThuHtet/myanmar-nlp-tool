@@ -6,6 +6,8 @@ Character Break| Regular Expression ||Can be used for any language.
 Syllable Break (Unicode)| Regular Expression || Can be used for Unicode data of Myanmar (Burmese), Rakhine, Pali, and Paoh.
 Syllable Break (Zawgyi)| Regular Expression || Can be used for Zawgyi Encoding Myanamr (Burmese) Language.
 Mutlilingual Semi-syllable Break (Unicode)|||Can be used for Unicode Encoding Sinhala, Tamil, Shan, Mon, Pali and Sanskrit, Sagaw Karen, Western Poh Karen, Eastern Poh Karen, Geba Karen, Kayah, Rumai Palaung, Khamathi Shan, Aiton and Phake, Burmese (Myanmar), Paoh, Rakhine Languages<br>
+Detect Email|Regular Expression||Can be used to detect emails in the text<br>
+Valid Parantheses|Stack|Time Complexity O(n), Space Complexity O(n)|True if it is valid False if it is not<br>
 
 ## Streamlit
 
