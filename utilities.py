@@ -28,7 +28,30 @@ def valid_parantheses(user_input):
   else:
             return True
    
+  
+ # n-grams:
+"""i = syllable_break(i)
+    print(i)
+    i = i.strip().split()
     
+    original = k
+    if (k>len(i)):
+      k = len(i)
+
+    prev = i[0:k]
+    #print(prev)
+
+    result = ''.join([str(element) for element in prev])
+    #print(result)
+
+    for j in range(k, len(i)):
+      prev = prev[1:]+ [i[j]]
+      #print(prev)
+      result += " "+''.join([str(element) for element in prev])
+      #print(result)
+
+    print(result)
+    print()"""
      
             
       
