@@ -1,6 +1,6 @@
 # nlp-tools
 
- Name | Type | Time and Space Complexity| Note
+ Name | Type | Time and Space Complexity| Usage|Note
 | ------------- | ------------- |------------- |------------- |
 Character Break| Regular Expression ||Can be used for any language.
 Syllable Break (Unicode)| Regular Expression || Can be used for Unicode data of Myanmar (Burmese), Rakhine, Pali, and Paoh.
