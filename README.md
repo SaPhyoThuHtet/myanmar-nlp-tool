@@ -1,7 +1,7 @@
 # nlp-tools
 
  Name | Type | Time and Space Complexity| Usage|Note
-| ------------- | ------------- |------------- |------------- |
+| ------------- | ------------- |------------- |------------- |------------- |
 Character Break| Regular Expression ||Can be used for any language.
 Syllable Break (Unicode)| Regular Expression || Can be used for Unicode data of Myanmar (Burmese), Rakhine, Pali, and Paoh.
 Syllable Break (Zawgyi)| Regular Expression || Can be used for Zawgyi Encoding Myanamr (Burmese) Language.
