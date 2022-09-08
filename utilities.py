@@ -1,4 +1,4 @@
-import re༹
+import re
 import streamlit as st
 
 def multilingual_semi_syllable_break(user_input):
