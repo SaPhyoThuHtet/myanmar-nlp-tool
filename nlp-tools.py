@@ -48,8 +48,8 @@ if (option == 'multilingual_semi_syllable_break'):
     
     st.markdown("<h4 style='text-align: center;'>Multilingual Semi_syllable Break</h4>", unsafe_allow_html=True)
     st.write("\n")
-    st.write("Description: Semi-syllable-break for Malayalam, Khmer, Telegu, Bengali, Sinhala, Tamil, Shan, Mon, Pali and Sanskrit, Sagaw Karen, Western Poh Karen, Eastern Poh Karen, Geba Karen, Kayah, Rumai Palaung, Khamathi Shan, Aiton and Phake, Burmese (Myanmar), Paoh, Rakhine Languages, Word break for English, Char break for other language")
-    user_input = st.text_input("Input", "വിക്കിപീഡിയ, ഒരു സ്വതന്ത്ര വിജ്ഞാനകോശംខ្មែរអ្នកបកប្រែអង់គ្លេសవికీపీడియాఎవరైనా రాయదగిన స్వేచ్ఛా విజ్ఞాన సర్వస్వము উত্তরবঙ্গ থেকে দক্ষিণবঙ্গ, সারা বাংলার প্রতিটি কোণের খবর জানতে চোখ রাখুন বাংলা NEWJ-এ।ඔබ සැමට නිදුක් නිරෝගී සුවය ලැබේවායි ප්‍රාර්ථනා කරමි. நீங்கள் அனைவரும் மகிழ்ச்சியாகவும் ஆரோக்கியமாகவும் இருக்க வாழ்த்துகிறேன். အားလုံးပဲ စိတ်ချမ်းသာ ကိုယ်ကျန်းမာကြပါစေ။ လိၵ်ႈတႆ, ပအိုဝ်")
+    st.write("Description: Semi-syllable-break for Gujarati, Malayalam, Khmer, Telegu, Bengali, Sinhala, Tamil, Shan, Mon, Pali and Sanskrit, Sagaw Karen, Western Poh Karen, Eastern Poh Karen, Geba Karen, Kayah, Rumai Palaung, Khamathi Shan, Aiton and Phake, Burmese (Myanmar), Paoh, Rakhine Languages, Word break for English, Char break for other language")
+    user_input = st.text_input("Input", "ગુજરાતી શબ્દ ઘણાં સંદર્ભોમા વપરાય છે, જે નીચેનામાંનો એક અર્થ ધરાવી શકે છે വിക്കിപീഡിയ, ഒരു സ്വതന്ത്ര വിജ്ഞാനകോശംខ្មែរអ្នកបកប្រែអង់គ្លេសవికీపీడియాఎవరైనా రాయదగిన స్వేచ్ఛా విజ్ఞాన సర్వస్వము উত্তরবঙ্গ থেকে দক্ষিণবঙ্গ, সারা বাংলার প্রতিটি কোণের খবর জানতে চোখ রাখুন বাংলা NEWJ-এ।ඔබ සැමට නිදුක් නිරෝගී සුවය ලැබේවායි ප්‍රාර්ථනා කරමි. நீங்கள் அனைவரும் மகிழ்ச்சியாகவும் ஆரோக்கியமாகவும் இருக்க வாழ்த்துகிறேன். အားလုံးပဲ စိတ်ချမ်းသာ ကိုယ်ကျန်းမာကြပါစေ။ လိၵ်ႈတႆ, ပအိုဝ်")
     result = utilities.multilingual_semi_syllable_break(user_input)
     st.write("Output:", result)
     
