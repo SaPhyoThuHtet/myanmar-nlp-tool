@@ -29,7 +29,7 @@ $ streamlit run nlptools.py
 4. NLP Class UTYCC, https://github.com/ye-kyaw-thu/NLP-Class
 
 ## Acknowledgement
-I would like to thank Dr Ye Thu, Ma Aye Hnin Khaing, and Ma Yi Yi Chan Myae Win Shein for their guidances, supports, and suggestions. The skills acquired from Dr Ye Kyaw Thu's NLP Class helped me a lot in order to develop new ideas in NLP Field and this repo. I would like to thank Dr Hnin Aye Thant for giving me such a great opportunity to be able to join UTYCC NLP class(2019-2020).
+I would like to thank Dr Ye Thu, Ma Aye Hninn Khaine, and Ma Yi Yi Chan Myae Win Shein for their guidances, support, and suggestions. The skills acquired from Dr Ye Kyaw Thu's NLP Class helped me a lot in order to develop new ideas in NLP Field and this repo. I would like to thank Dr Hnin Aye Thant for giving me such a great opportunity to be able to join UTYCC NLP class(2019-2020).
 
 
 ## License
