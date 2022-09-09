@@ -7,7 +7,7 @@ def multilingual_semi_syllable_break(user_input):
   result = re.sub(r" +", " ", result)
   return result
 
-def valid_parantheses(user_input):#
+def valid_parantheses(user_input):
   open_brackets = {"{", "(", "["}
   dic = {"}":"{", ")":"(", "]":"["}
   stack = []
