@@ -28,8 +28,8 @@ $ streamlit run nlptools.py
 3. Rabbit Converter, http://www.rabbit-converter.org/
 4. NLP Class UTYCC, https://github.com/ye-kyaw-thu/NLP-Class
 
-## Acknowledgement
-I would like to thank Dr Ye Kyaw Thu, Dr Hnin Aye Thant, Ma Aye Hninn Khaine, and Ma Yi Yi Chan Myae Win Shein for their guidances, support, and suggestions. The skills acquired from Dr Ye Kyaw Thu's NLP Class helped me a lot in order to develop new ideas in NLP Field and this repo. I would like to thank Dr Hnin Aye Thant for giving me such a great opportunity to be able to join UTYCC NLP class(2019-2020).
+## Acknowledgment
+I would like to thank Dr. Ye Kyaw Thu, Dr. Hnin Aye Thant, Ma Aye Hninn Khine, ​and Ma Yi Yi Chan Myae Win Shein for their guidance, support, and suggestions. The skills acquired from Dr. Ye Kyaw Thu's NLP Class helped me a lot in order to develop new ideas in NLP Field and this repo.
 
 
 ## License
