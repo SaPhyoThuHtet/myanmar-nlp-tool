@@ -18,8 +18,6 @@ option = st.sidebar.selectbox(
     '',select['topics'])
 
 
-st.sidebar.write("Copyrights@SaPhyoThuHtet")
-
 if (option == "valid_parantheses"):
     user_input = st.text_input("Input", "(aabb)]")
     result = utilities.valid_parantheses(user_input)
