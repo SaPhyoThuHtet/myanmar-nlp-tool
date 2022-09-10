@@ -6,7 +6,7 @@ Character Break| Regular Expression ||Can be used for any language.
 Syllable Break (Unicode)| Regular Expression || Can be used for Unicode data of Myanmar (Burmese), Rakhine, Pali, and Paoh.
 Syllable Break (Zawgyi)| Regular Expression || Can be used for Zawgyi Encoding Myanamr (Burmese) Language.
 Multilingual Semi-syllable Break (Unicode)|Regular Expression||Can be used for Unicode Encoding Kannada, Oriya, Gujarati, Malayalam, Khmer, Bengali, Sinhala, Tamil, Mon, Pali and Sanskrit, Sagaw Karen, Western Poh Karen, Eastern Poh Karen, Geba Karen, Kayah, Rumai Palaung, Khamathi Shan, Aiton and Phake, Burmese (Myanmar), Paoh, Rakhine Languages)|I got this new idea while working in keywords detection in burmese and other two languages. Regarding keywords detection, the word like "ဘောမ" can be found in the sentence like "သင်္ဘောမျိုး" and the scanerio is irrelevant. And luckily I found an alternative that would be helpful for three languages.<br>
-Burmese to Braille (Muu Haung) Converter|Regular Expression||Can be used to change from burmese to burmese braille (Muu Haung)
+Burmese to Braille (Muu Haung) Converter|Regular Expression||Can be used to change from burmese to burmese braille (Muu Haung)| The brialle to burmese dictonary may need to be updated.
 Detect Email|Regular Expression||Can be used to detect emails in the text<br>
 Valid Parantheses|Stack|Time Complexity O(n), Space Complexity O(n)|Return True if the user input is valid False if it is not<br>
 
