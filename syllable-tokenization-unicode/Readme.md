@@ -1,8 +1,5 @@
 Syllable Unicode
 =====================
-
-**How to run**: perl syllabletokenization-unicode.pl input > output
-
 **Syllbreak Unicode**: Syllable-Tokenization for Burmese, Rakhine, Pali-Burmese, Pa-Oh Unicode, Word-break for English, Character-break for other languages <br /> <br />
 
 
