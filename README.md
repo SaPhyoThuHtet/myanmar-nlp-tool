@@ -9,6 +9,7 @@ Multilingual Semi-syllable Tokenization (Unicode)|Regular Expression|O(n), O(1)|
 Burmese to Braille (Muu Haung) Converter|Regular Expression|O(n), O(1)|Can be used to change from burmese to burmese braille (Muu Haung)| The brialle to burmese dictonary may need to be updated.
 Detect Email|Regular Expression|O(n), O(1)|Can be used to detect emails in the text<br>|E.g. Input: ဒီနေ့တော့ phyothuhtet39@gmail.com ဆီကို mail  ပို့ရမယ်။ နေဉီး သူက Microsoft Mail phyothuhtet@studentambassadors.com ကို သုံးတာလားမေးကြည့်ပါဦး။ ငါ ayethida89.young@utycc.edu.mm  ကနေ ပို့လိုက်မယ်။, Output: ayethida89.young@utycc.edu.mm;phyothuhtet39@gmail.com;phyothuhtet@studentambassadors.com
 Valid Parantheses|Stack|O(n), O(n)|Return True if the user input is valid False if it is not<br>
+Remove this characters|Stack|O(n), O(n)|Remove the specified characters<br>
 
 ## Streamlit
 
