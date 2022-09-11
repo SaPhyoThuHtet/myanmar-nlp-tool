@@ -18,7 +18,7 @@ option = st.sidebar.selectbox(
     '',select['topics'])
 
 if (option == "remove-characters"):
-    st.write("Please types characters to remove, please use ||| signs to denote as a different char. E.g.မ|||ဝ"
+    st.write("Please types characters to remove, please use ||| signs to denote as a different char. E.g.မ|||ဝ")
     chars = st.text_input("Char Input:", "ည|||လ")
     text  = st.text_input("Text Input:", "ညအခါ လသာသာ ကစားမလား နားမလား")
     result = utilities.remove_chars(chars, text)
