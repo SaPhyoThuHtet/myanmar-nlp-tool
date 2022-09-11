@@ -3,14 +3,13 @@ import streamlit as st
 
 def remove_chars(chars, text):
   # remove the user input characters
-  
+  text2 =""
   index = 0
   for i in range(len(text)):
     if (i not in chars):
-      text[index] = text[i]
-      index += 1
+      text2 += text[i]
     
-  return text[:index]
+  return text2
       
       
 def multilingual_semi_syllable_break(user_input):
