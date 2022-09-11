@@ -24,7 +24,7 @@ if (option == "remove-characters"):
     result = utilities.remove_chars(chars, text)
     st.write("Output:", result)
 
-if (option == "valid_parantheses"):
+if (option == "valid-parantheses"):
     user_input = st.text_input("Input", "(aabb)]")
     result = utilities.valid_parantheses(user_input)
     st.write("Output:", result)
