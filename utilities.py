@@ -6,7 +6,7 @@ def remove_chars(chars, text):
   text2 =""
   index = 0
   for i in range(len(text)):
-    if (i not in chars):
+    if (text[i] not in chars):
       text2 += text[i]
     
   return text2
