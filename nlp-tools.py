@@ -13,10 +13,16 @@ st.sidebar.image(
 )
 st.sidebar.markdown("<h3 style='text-align: center;'>NLP Tools</h3>", unsafe_allow_html=True)
 select = pd.DataFrame()
-select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'syllable-tokenization-zawgyi', 'multilingual_semi_syllable_tokenization', 'detect-email', 'burmese2braille(Muu Haung)', 'valid_parantheses']
+select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'syllable-tokenization-zawgyi', 'multilingual_semi_syllable_tokenization', 'detect-email', 'burmese2braille(Muu Haung)', 'valid-parantheses', 'remove-characters']
 option = st.sidebar.selectbox(
     '',select['topics'])
 
+if (option == "remove-characters"):
+    st.write("Please types characters to remove, please use ||| signs to denote as a different char. E.g.မ|||ဝ"
+    chars = st.text_input("Char Input:", "ည|||လ")
+    text  = st.text_input("Text Input:", "ညအခါ လသာသာ ကစားမလား နားမလား")
+    result = utilities.remove_chars(chars, text)
+    st.write("Output:", result)
 
 if (option == "valid_parantheses"):
     user_input = st.text_input("Input", "(aabb)]")
