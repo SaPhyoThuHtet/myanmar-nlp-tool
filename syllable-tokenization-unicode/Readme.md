@@ -1,9 +1,9 @@
 Syllable Unicode
 =====================
 
-**How to run**: perl syllbreak-unicode.pl input > output
+**How to run**: perl syllabletokenization-unicode.pl input > output
 
-**Syllbreak Unicode**: Syllable-break for Burmese, Rakhine, Pali-Burmese, Pa-Oh Unicode, Word-break for English, Character-break for other languages <br /> <br />
+**Syllbreak Unicode**: Syllable-Tokenization for Burmese, Rakhine, Pali-Burmese, Pa-Oh Unicode, Word-break for English, Character-break for other languages <br /> <br />
 
 
 **Input**: မင်္ဂလာပါ
