@@ -44,7 +44,7 @@ if (option == 'syllable-tokenization-zawgyi'):
     
 if (option == 'multilingual_semi_syllable_tokenization'):
     
-    st.markdown("<h4 style='text-align: center;'>Multilingual Semi_syllable Tokenizor</h4>", unsafe_allow_html=True)
+    st.markdown("<h4 style='text-align: center;'>Multilingual Semi_syllable Tokenizer</h4>", unsafe_allow_html=True)
     st.write("\n")
     st.write("Description: Semi-syllable-break for Lao, Kannada, Oriya, Gujarati, Malayalam, Khmer, Telegu, Bengali, Sinhala, Tamil, Shan, Mon, Pali and Sanskrit, Sagaw Karen, Western Poh Karen, Eastern Poh Karen, Geba Karen, Kayah, Rumai Palaung, Khamathi Shan, Aiton and Phake, Burmese (Myanmar), Paoh, Rakhine Languages, Word break for English, Char break for other language")
     user_input = st.text_input("Input", "ພາສາລາວ ແມ່ນພາສາລັດຖະການຂອງ ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ. ແລະເປັນພາສາແມ່ຂອງຄົນເຊື້ອຊາດລາວ ທັງຢູ່ພາຍໃນແລະຕ່າງປະເທດ. ພາສາລາວມີວັນນະຍຸດ ມີການປາກເວົ້າໃນພາກຕາເວັນອອກສຽງເໜືອຂອງປະເທດໄທແລະພາກຕາເວັນອອກສຽງເໜືອຂອງປະເທດກຳປູເຈຍ. ທາງລັດຖະບານປະເທດໄທມີການສະໜັບສະໜຸນໃຫ້ເອີ້ນພາສາລາວຖິ່ນໄທວ່າ ພາສາລາວຖິ່ນອີສານ(Lao), ವರೆಗೆ ಟಿಬಿಎಂ ಯಂತ್ರ ಈ ಸುರಂಗ ಕೊರೆಯುವುದನ್ನು ಯಶಸ್ವಿಗೊಳಿಸಿದೆ(Kannada), ଭୁବନେଶ୍ୱରର ମାଷ୍ଟର କ୍ୟାଣ୍ଟିନ ଛକରେ ଥିବା କୋଣାର୍କର ଘୋଡ଼ା ગુજરાતી શબ્દ ઘણાં સંદર્ભોમા વપરાય છે, જે નીચેનામાંનો એક અર્થ ધરાવી શકે છે വിക്കിപീഡിയ, ഒരു സ്വതന്ത്ര വിജ്ഞാനകോശംខ្មែរអ្នកបកប្រែអង់គ្លេសవికీపీడియాఎవరైనా రాయదగిన స్వేచ్ఛా విజ్ఞాన సర్వస్వము উত্তরবঙ্গ থেকে দক্ষিণবঙ্গ, সারা বাংলার প্রতিটি কোণের খবর জানতে চোখ রাখুন বাংলা NEWJ-এ।ඔබ සැමට නිදුක් නිරෝගී සුවය ලැබේවායි ප්‍රාර්ථනා කරමි. நீங்கள் அனைவரும் மகிழ்ச்சியாகவும் ஆரோக்கியமாகவும் இருக்க வாழ்த்துகிறேன். အားလုံးပဲ စိတ်ချမ်းသာ ကိုယ်ကျန်းမာကြပါစေ။ မႂ်ႇသုင်ၶႃႈ,နာꩻ အုံ‌‌ဟောဝ်နေဟောဝ်း။")
