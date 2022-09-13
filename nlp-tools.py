@@ -46,7 +46,7 @@ if (option == 'syllable-tokenization-zawgyi'):
     st.write("Description: Syllable tokenizer for Burmese in Zawgyi Encoding")
     user_input = st.text_input("Input", "သီဟိုဠ္မွ ဉာဏ္ႀကီးရွင္သည္ အာယုဝၯနေဆးၫႊန္းစာကို ဇလြန္ေဈးေဘး ဗာဒံပင္ထက္ အဓိ႒ာန္လ်က္ ဂဃနဏဖတ္ခဲ့သည္။ေဆာင္")
     result = re.sub(r'(ေ*ျ*ႀ*ၿ*ၾ*[က-အၫ|႐|ႏ|ဥ|ဦ|႒]([က-အ]့*္[့း]*|[ါ-ာ]|[ိ-ူ]|[ဲ-္]|်|[ြ-ှ]|[ၐ-ၽ]|[ႁ-ႎ]|[႑-႟]){0,}|.)',r'\1 ',user_input)
-    new_rule = re.sub(r'([ေျႀၿၾ]*[က-ဪႏဿႎၐ-ၕၛ-ၝၡၦၮ-ၰၵ-ၽႁ႞-႟]([က-အ]့*္[့း]*|[ါ-ာ]|[ိ-ူ]|[ဲ-္]|်|[ြ-ှ]|[ၐ-ၽ]|[ႁ-ႎ]|[႑-႟]){0,}|.)', r'\1 ', user_input)
+    new_rule = re.sub(r'([ေျႀၿၾ]*[က-ဪႏဿႎၐ-ၕၛ-ၝၡၦၮ-ၰၵ-ၽႁ႞-႟][]*[]*{0,}|.)', r'\1 ', user_input)
     st.write("Output:",result)
     #st.write("Output:",new_rule)
     
