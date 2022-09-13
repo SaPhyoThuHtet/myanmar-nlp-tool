@@ -1,6 +1,6 @@
 # nlp-tools
 
- Name | Type | Time and Space Complexity| Usage|Note
+ Name | Type | Time and Space Complexity| Usage|Note|
 | ------------- | ------------- |------------- |------------- |------------- |
 Character Break| Regular Expression |O(n), O(1)|Can be used for any language.
 Syllable Tokenization (Unicode)| Regular Expression |O(n), O(1)| Can be used for Unicode data of Myanmar (Burmese), Rakhine, Pali, and Paoh.
