@@ -48,7 +48,7 @@ if (option == 'syllable-tokenization-zawgyi'):
     result = re.sub(r'(ေ*ျ*ႀ*ၿ*ၾ*[က-အၫ|႐|ႏ|ဥ|ဦ|႒]([က-အ]့*္[့း]*|[ါ-ာ]|[ိ-ူ]|[ဲ-္]|်|[ြ-ှ]|[ၐ-ၽ]|[ႁ-ႎ]|[႑-႟]){0,}|.)',r'\1 ',user_input)
     new_rule = re.sub(r'([ေျႀၿၾ]*[က-ဪႏဿႎၐ-ၕၛ-ၝၡၦၮ-ၰၵ-ၽႁ႞-႟]([က-အ]့*္[့း])*[ါ-ှ|ၖ-ၚ|ၞ-ၠ|ၢ-ၤ|ၧ-ၭ|ၱ-ၴ|ႂ-ႍ|ႚ-ႝ]{0,}|.)', r'\1 ', user_input)
     #st.write("Output:",result)
-    return new_rule
+    st.write("Output:",new_rule)
     
 if (option == 'multilingual_semi_syllable_tokenization'):
     
