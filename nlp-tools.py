@@ -45,7 +45,7 @@ if(option == "syllable-tokenization"):
 if (option == 'syllable-tokenization-zawgyi'):
     st.write("Description: Syllable tokenizer for Burmese in Zawgyi Encoding")
     user_input = st.text_input("Input", " ေန​ေကာင္းလား​ေမ​ေမ")
-    result = re.sub(r'(ေ*ျ*ႀ*ၿ*ၾ*[က-အၫ|႐|ႏ|ဥ|ဦ|႒]([က-အ]့*္[့း]*|[ါ-ာ]|[ိ-ူ]|[ဲ-္]|်|[ြ-ှ]|[ၐ-ၪ]|[ၬ-ၽ]|[ႁ-ႎ]|[႑-႟]){0,}|.)',r'\1 ',user_input)
+    result = re.sub(r'(ေ*ျ*ႀ*ၿ*ၾ*[က-အၫ|႐|ႏ|ဥ|ဦ|႒]([က-အ]့*္[့း]*|[ါ-ာ]|[ိ-ူ]|[ဲ-္]|်|[ြ-ှ]|[ၐ-ၪ]|[ၬ-ၽ]|[ႁ-ႎ]|[႑]|[႓-႟]){0,}|.)',r'\1 ',user_input)
     #new_rule = re.sub(r'([ေျႀၿၾ]*[က-ဪႏဿႎၐ-ၕၛ-ၝၡၦၮ-ၰၵ-ၽႁ႞-႟][]*[]*{0,}|.)', r'\1 ', user_input)
     st.write("Output:",result)
     #st.write("Output:",new_rule)
