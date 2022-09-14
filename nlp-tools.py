@@ -49,7 +49,7 @@ if (option == 'syllable-tokenization-zawgyi'):
     #new_rule = re.sub(r'([ေျႀၿၾ|ႂ]*[က-ဪႏဿႎၐ-ၕၛ-ၝၡၦၮ-ၰၵ-ၽႁ႞-႟][]*[]*{0,}|.)', r'\1 ', user_input)
     st.write("Output:",result)
     #st.write("Output:",new_rule)
-    
+    #
 if (option == 'multilingual_semi_syllable_tokenization'):
     
     st.markdown("<h4 style='text-align: center;'>Multilingual Semi_syllable Tokenizer</h4>", unsafe_allow_html=True)
