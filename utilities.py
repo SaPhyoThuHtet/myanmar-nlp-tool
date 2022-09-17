@@ -1,6 +1,14 @@
 import re
 import streamlit as st
 
+@st.experimental_singleton
+def loadModel(model_file):
+    model = keras.models.load_model(model_file)
+    return model
+  
+def zawgyiUnicodeDetection():
+  model = loadModel()
+
 def remove_chars(chars, text):
   # remove the user input characters
   text2 =""
