@@ -27,6 +27,3 @@ $ streamlit run nlptools.py
 1. Unicode Character Table, https://jrgraphix.net/r/Unicode/1000-109F
 2. Rabbit Converter, http://www.rabbit-converter.org/
 3. NLP Class UTYCC, https://github.com/ye-kyaw-thu/NLP-Class
-
-## Acknowledgment
-I would like to thank Dr. Ye Kyaw Thu, Dr. Hnin Aye Thant, Ma Aye Hninn Khine, ​and Ma Yi Yi Chan Myae Win Shein for their guidance, support, and suggestions. The skills acquired from Dr. Ye Kyaw Thu's NLP Class helped me a lot in order to develop new ideas in NLP Field and this repo.
