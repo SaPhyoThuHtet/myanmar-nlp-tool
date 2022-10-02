@@ -19,7 +19,7 @@ option = st.sidebar.selectbox(
 
 
 if (option == "syllable-n-grams"):
-    st.write("Syllable n-grams with sliding windows approach")
+    st.markdown("<h4 style='text-align: center;'>Syllable n-grams with sliding windows approach</h4>", unsafe_allow_html=True)
     
     n = st.number_input("How many grams do you want to apply:", 3)
     text  = st.text_input("Text Input:", "ဝါဆိုဝါခေါင် ရေတွေကြီးလို့ သပြေသီးမှည့် ကောက်စို့ကွယ်")
