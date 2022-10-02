@@ -1,6 +1,26 @@
 import re
 import streamlit as st
 
+def syllable_break(input:str)->str:
+    return re.sub(r"(([A-Za-z0-9]+)|[က-အ|ဥ|ဦ](င်္|[က-အ][ှ]*[့း]*[်]|္[က-အ]|[ါ-ှႏꩻ][ꩻ]*){0,}|.)",r"\1 ", input.strip())
+def n_grams(input, k):
+    if (k <1):
+      return ""
+
+    i = syllable_break(input)
+    i = i.strip().split()
+    
+    if (k>len(i)):
+      k = len(i)
+    prev = i[0:k]
+    
+    result = ''.join([str(element) for element in prev])
+    for j in range(k, len(i)):
+      prev = prev[1:]+ [i[j]]
+      result += " "+''.join([str(element) for element in prev])
+    return result
+
+
 @st.experimental_singleton
 def loadModel(model_file):
     model = keras.models.load_model(model_file)
