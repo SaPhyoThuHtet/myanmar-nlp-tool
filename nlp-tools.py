@@ -13,10 +13,19 @@ st.sidebar.image(
 )
 st.sidebar.markdown("<h3 style='text-align: center;'>NLP Tools</h3>", unsafe_allow_html=True)
 select = pd.DataFrame()
-select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'syllable-tokenization-zawgyi', 'multilingual_semi_syllable_tokenization', 'detect-email', 'burmese2braille(Muu Haung)', 'valid-parantheses', 'remove-characters']
+select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'syllable-tokenization-zawgyi', 'multilingual_semi_syllable_tokenization', 'syllable-n-grams', 'detect-email', 'burmese2braille(Muu Haung)', 'valid-parantheses', 'remove-characters']
 option = st.sidebar.selectbox(
     '',select['topics'])
 
+
+if (option == "syllable-n-grams"):
+    st.write("Syllable n-grams with sliding windows approach")
+    
+    n = st.number_input("How many grams do you want to apply:", 3)
+    text  = st.text_input("Text Input:", "ဝါဆိုဝါခေါင် ရေတွေကြီးလို့ သပြေသီးမှည့် ကောက်စို့ကွယ်")
+    result = utilities.n_grams(n, text)
+    st.write("Output:", result)
+    
 if (option == "remove-characters"):
     st.write("Please types characters to remove, please use ||| signs to denote as a different char. E.g.မ|||ဝ")
     chars = st.text_input("Char Input:", "ည|||လ")
