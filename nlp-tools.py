@@ -18,12 +18,14 @@ option = st.sidebar.selectbox(
     '',select['topics'])
 
 
-if (option == "syllable-n-grams"):
-    st.markdown("<h4 style='text-align: center;'>Syllable n-grams with sliding windows approach</h4>", unsafe_allow_html=True)
+if (option == "syllable/Character-n-grams"):
+    st.markdown("<h4 style='text-align: center;'>Syllable/ Character n-grams with sliding windows approach</h4>", unsafe_allow_html=True)
     
-    n = st.number_input("How many grams do you want to apply:", 1)
+    n      = st.number_input("How many grams do you want to apply:", 1)
+    option = st.selectbox('Which type of Tokenization would you like to perform?', ('Character', 'Syllable'))
+
     text  = st.text_input("Text Input:", "ဝါဆိုဝါခေါင် ရေတွေကြီးလို့ သပြေသီးမှည့် ကောက်စို့ကွယ်")
-    result = utilities.n_grams(n, text)
+    result = utilities.n_grams(n, text, option)
     st.write("Output:", result)
     
 if (option == "remove-characters"):
