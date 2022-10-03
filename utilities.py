@@ -1,13 +1,14 @@
 import re
 import streamlit as st
 
-def syllable_break(input:str)->str:
+def syllable_tokenization(input:str)->str:
     return re.sub(r"(([A-Za-z0-9]+)|[က-အ|ဥ|ဦ](င်္|[က-အ][ှ]*[့း]*[်]|္[က-အ]|[ါ-ှႏꩻ][ꩻ]*){0,}|.)",r"\1 ", input.strip())
+
 def n_grams(k, input):
     if (k <1):
       return ""
 
-    i = syllable_break(input)
+    i = syllable_tokenization(input)
     i = i.strip().split()
     
     if (k>len(i)):
