@@ -13,12 +13,12 @@ st.sidebar.image(
 )
 st.sidebar.markdown("<h3 style='text-align: center;'>NLP Tools</h3>", unsafe_allow_html=True)
 select = pd.DataFrame()
-select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'syllable-tokenization-zawgyi', 'multilingual_semi_syllable_tokenization', 'syllable-n-grams', 'detect-email', 'burmese2braille(Muu Haung)', 'valid-parantheses', 'remove-characters']
+select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'syllable-tokenization-zawgyi', 'multilingual_semi_syllable_tokenization', 'syllable/character-n-grams', 'detect-email', 'burmese2braille(Muu Haung)', 'valid-parantheses', 'remove-characters']
 option = st.sidebar.selectbox(
     '',select['topics'])
 
 
-if (option == "syllable/Character-n-grams"):
+if (option == "syllable/character-n-grams"):
     st.markdown("<h4 style='text-align: center;'>Syllable/ Character n-grams with sliding windows approach</h4>", unsafe_allow_html=True)
     
     n      = st.number_input("How many grams do you want to apply:", 1)
