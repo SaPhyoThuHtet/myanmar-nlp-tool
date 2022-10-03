@@ -4,11 +4,18 @@ import streamlit as st
 def syllable_tokenization(input:str)->str:
     return re.sub(r"(([A-Za-z0-9]+)|[က-အ|ဥ|ဦ](င်္|[က-အ][ှ]*[့း]*[်]|္[က-အ]|[ါ-ှႏꩻ][ꩻ]*){0,}|.)",r"\1 ", input.strip())
 
-def n_grams(k, input):
+def character_tokenization(input:str)->str:
+    return re.sub(r"([^\s])",r"\1 ", input)   
+
+def n_grams(k, input, option):
     if (k <1):
       return ""
-
-    i = syllable_tokenization(input)
+    
+    if option == "Character":
+        i = character_tokenization(input)
+    else:
+        i = syllable_tokenization(input)
+        
     i = i.strip().split()
     
     if (k>len(i)):
