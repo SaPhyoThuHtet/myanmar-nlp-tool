@@ -25,7 +25,7 @@ if (option == "syllable/Character-n-grams"):
     option = st.selectbox('Which type of Tokenization would you like to perform?', ('Character', 'Syllable'))
 
     text  = st.text_input("Text Input:", "ဝါဆိုဝါခေါင် ရေတွေကြီးလို့ သပြေသီးမှည့် ကောက်စို့ကွယ်")
-    result = utilities.n_grams(n, text, option)
+    result = utilities.n_grams(n, text, 'Syllable')
     st.write("Output:", result)
     
 if (option == "remove-characters"):
