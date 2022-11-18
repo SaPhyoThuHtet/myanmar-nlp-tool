@@ -27,7 +27,7 @@ $ pip3 install requirements.txt
 $ streamlit run nlptools.py
 ```
 ## gdg 2022
-Zero Shot Example Notebook: https://colab.research.google.com/drive/1jocViLorbwWIkTXKwxCOV9HLTaDDgCaw?usp=sharing
+Zero Shot Example Notebook: https://colab.research.google.com/drive/1jocViLorbwWIkTXKwxCOV9HLTaDDgCaw?usp=sharing (This is the original notebook provided by hugging face)
 
 ## References
 1. Unicode Character Table, https://jrgraphix.net/r/Unicode/1000-109F
