@@ -1,6 +1,7 @@
 import re
 import streamlit as st
 import tensorflow as tf
+from tensorflow import keras
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import pickle
@@ -8,7 +9,7 @@ import pickle
 """" Zawgyi Unicode Detection"""
 @st.experimental_singleton
 def load_zagyi_unicode_detection_model():    
-    model = tf.keras.models.load_model("model/zawgyi-unicode-detection/zawgyiunicodedetectionstreamlit.h5")
+    model = keras.models.load_model("model/zawgyi-unicode-detection/zawgyiunicodedetectionstreamlit.h5")
     return model
 
 @st.experimental_singleton
