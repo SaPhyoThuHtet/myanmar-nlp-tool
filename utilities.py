@@ -19,6 +19,7 @@ def load_zawgyi_unicode_tokenizer():
     return tokenizer
 
 def zawgyi_unicode_detection(input:str)->str:
+    st.write(input)
     st.write("Loading Tokenizer")
     zawgyi_unicode_tokenizer = load_zawgyi_unicode_tokenizer()
     st.write("Loading Model")
