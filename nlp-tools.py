@@ -13,11 +13,19 @@ st.sidebar.image(
 )
 st.sidebar.markdown("<h3 style='text-align: center;'>NLP Tools</h3>", unsafe_allow_html=True)
 select = pd.DataFrame()
-select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'syllable-tokenization-zawgyi', 'multilingual_semi_syllable_tokenization', 'syllable/character-n-grams', 'detect-email', 'burmese2braille(Muu Haung)', 'valid-parantheses', 'remove-characters']
+select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'syllable-tokenization-zawgyi', 'multilingual_semi_syllable_tokenization', 'syllable/character-n-grams', 'detect-email', 'burmese2braille(Muu Haung)', 'zawgyi-unicode-detection','valid-parantheses', 'remove-characters']
 option = st.sidebar.selectbox(
     '',select['topics'])
 
-
+if (option == "zawgyi-unicode-detection"):
+    
+    st.markdown("<h4 style='text-align: center;'>Sentence Level Zawgyi Unicode Detection</h4>", unsafe_allow_html=True)
+    st.write("Please Enter a sentence to determine it is written in Zawgyi or Unicode Encoding")
+    text  = st.text_input("Text Input:", "အခြေအနေ နဲ့ အချိန်အခါ ကို အကျိုုးရှိစွာ အသုံးချ ခြင်း။")
+    result = utilities.zawgyi_unicode_detection(text)
+    st.write("Output:", result)
+    
+    
 if (option == "syllable/character-n-grams"):
     st.markdown("<h4 style='text-align: center;'>Syllable/ Character n-grams with sliding windows approach</h4>", unsafe_allow_html=True)
     
