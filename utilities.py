@@ -12,9 +12,9 @@ def load_zagyi_unicode_detection_model():
 
 @st.experimental_singleton
 def load_zawgyi_unicode_tokenizer():    
-    with open('model/zawgyi-unicode-detection/zawgyi_unicode_tokenizer.pickle', 'rb') as zawgyi_unicode_tokenizer:
-        zawgyi_unicode_tokenizer = pickle.load(zawgyi_unicode_tokenizer)
-    return zawgyi_unicode_tokenizer
+    with open('model/zawgyi-unicode-detection/zawgyi_unicode_tokenizer.pickle', 'rb') as file:
+        tokenizer = pickle.load(file)
+    return tokenizer
 
 def zawgyi_unicode_detection(input:str)->str:
     st.write("Loading Tokenizer")
