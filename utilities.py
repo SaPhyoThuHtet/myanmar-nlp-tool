@@ -23,11 +23,11 @@ def zawgyi_unicode_detection(input:str)->str:
     st.write("Loading Tokenizer")
     zawgyi_unicode_tokenizer = load_zawgyi_unicode_tokenizer()
     model = load_zawgyi_unicode_detection_model()
-    st.write("Syllbreak:", syllable_tokenization(input))
-    testing_sequences = zawgyi_unicode_tokenizer.texts_to_sequences(syllable_tokenization(input))
+    st.write("Syllbreak: ", syllable_tokenization(input))
+    testing_sequences = zawgyi_unicode_tokenizer.texts_to_sequences([syllable_tokenization(input)])
     testing_padded = pad_sequences(testing_sequences,maxlen=150, truncating='post',padding='post')
-    st.write(testing_padded)
-    ans = model.predict(testing_padded)
+    st.write("Padded Data: ", testing_padded)
+    model.predict(testing_padded)
 
 
 
