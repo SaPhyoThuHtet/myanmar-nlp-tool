@@ -7,7 +7,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 """" Zawgyi Unicode Detection"""
 @st.experimental_singleton
 def load_zagyi_unicode_detection_model():    
-    model = tf.keras.models.load_model("")
+    model = tf.keras.models.load_model("https://github.com/SaPhyoThuHtet/nlp-tools/blob/main/model/zawgyi-unicode-detection/zawgyiunicodedetectionstreamlit.h5")
     return model
 
 def load_zawgyi_unicode_tokenizer():    
