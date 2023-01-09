@@ -19,8 +19,6 @@ def load_zawgyi_unicode_tokenizer():
     return tokenizer
 
 def zawgyi_unicode_detection(input:str)->str:
-    st.write(input)
-    st.write("Loading Tokenizer")
     zawgyi_unicode_tokenizer = load_zawgyi_unicode_tokenizer()
     model = load_zawgyi_unicode_detection_model()
     testing_sequences = zawgyi_unicode_tokenizer.texts_to_sequences([syllable_tokenization(input)])
