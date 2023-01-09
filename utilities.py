@@ -25,6 +25,7 @@ def zawgyi_unicode_detection(input:str)->str:
     st.write("Predicting")
     testing_sequences = zawgyi_unicode_tokenizer.texts_to_sequences([syllable_tokenization(input)])
     testing_padded = pad_sequences(testing_sequences,maxlen=150, truncating='post',padding='post')
+    st.write(testing_padded)
     ans = model.predict(testing_padded)
 
 
