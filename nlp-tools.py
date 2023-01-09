@@ -19,7 +19,7 @@ option = st.sidebar.selectbox(
 
 if (option == "zawgyi-unicode-detection"):
     
-    st.markdown("<h4 style='text-align: center;'>Sentence Level Zawgyi Unicode Detection</h4>", unsafe_allow_html=True)
+    st.markdown("<h4 style='text-align: center;'>Burmese Sentence Level Zawgyi Unicode Detection</h4>", unsafe_allow_html=True)
     st.write("Please Enter a sentence to determine it is written in Zawgyi or Unicode Encoding")
     text  = st.text_input("Text Input:", "အခြေအနေ နဲ့ အချိန်အခါ ကို အကျိုုးရှိစွာ အသုံးချ ခြင်း။")
     result = utilities.zawgyi_unicode_detection(text)
