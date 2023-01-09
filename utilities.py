@@ -1,7 +1,32 @@
 import re
 import streamlit as st
 import tensorflow as tf
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 
+"""" Zawgyi Unicode Detection"""
+@st.experimental_singleton
+def load_zagyi_unicode_detection_model():    
+    model = tf.keras.models.load_model("")
+    return model
+
+def load_zawgyi_unicode_tokenizer():    
+    with open('https://github.com/SaPhyoThuHtet/nlp-tools/blob/main/model/zawgyi-unicode-detection/zawgyi_unicode_tokenizer.pickle', 'rb') as zawgyi_unicode_tokenizer:
+        zawgyi_unicode_tokenizer = pickle.load(zawgyi_unicode_tokenizer)
+    return zawgyi_unicode_tokenizer
+
+def zawgyi_unicode_detection(input:str)->str:
+    st.write("Loading Tokenizer")
+    zawgyi_unicode_tokenizer = load_zawgyi_unicode_tokenizer()
+    st.write("Loading Model")
+    model = load_zagyi_unicode_detection_model()
+    st.write("Predicting")
+    testing_sequences = zawgyi_unicode_tokenizer.texts_to_sequences([syllable_tokenization(input)])
+    testing_padded = pad_sequences(testing_sequences,maxlen=150, truncating='post',padding='post')
+
+
+
+    
 def syllable_tokenization(input:str)->str:
     return re.sub(r"(([A-Za-z0-9]+)|[က-အ|ဥ|ဦ](င်္|[က-အ][ှ]*[့း]*[်]|္[က-အ]|[ါ-ှႏꩻ][ꩻ]*){0,}|.)",r"\1 ", input.strip())
 
