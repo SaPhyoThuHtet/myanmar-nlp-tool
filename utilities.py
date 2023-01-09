@@ -8,7 +8,7 @@ import pickle
 
 """" Zawgyi Unicode Detection"""
 @st.experimental_singleton
-def load_zagyi_unicode_detection_model():    
+def load_zawgyi_unicode_detection_model():    
     model = tf.keras.models.load_model("model/zawgyi-unicode-detection/zawgyiunicodedetectionstreamlit.h5")
     return model
 
