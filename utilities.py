@@ -14,7 +14,7 @@ def load_zawgyi_unicode_detection_model():
 
 @st.experimental_singleton
 def load_zawgyi_unicode_tokenizer():    
-    with open('model/zawgyi-unicode-detection/zawgyi_unicode_tokenizer.pickle', 'rb') as file:
+    with open('model/zawgyi-unicode-detection/tokenizer.pickle', 'rb') as file:
         tokenizer = pickle.load(file)
     return tokenizer
 
