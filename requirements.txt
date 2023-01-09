@@ -2,4 +2,4 @@ pandas
 streamlit
 pydub
 librosa
-tensorflow==2.9.2
+tensorflow
