@@ -1,7 +1,4 @@
-# nlp-tools
-
- Text Preprocessing
-
+# nlp-tool
  Name | Type | Time and Space Complexity| Usage|Note
 | ------------- | ------------- |------------- |------------- |------------- |
 Character Break| Used Regular Expression |O(n), O(1)|Can be used for any language.
