@@ -1,5 +1,6 @@
 import re
 import streamlit as st
+import tensorflow as tf
 
 def syllable_tokenization(input:str)->str:
     return re.sub(r"(([A-Za-z0-9]+)|[က-အ|ဥ|ဦ](င်္|[က-အ][ှ]*[့း]*[်]|္[က-အ]|[ါ-ှႏꩻ][ꩻ]*){0,}|.)",r"\1 ", input.strip())
