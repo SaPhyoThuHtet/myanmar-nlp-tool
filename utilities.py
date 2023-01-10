@@ -41,7 +41,9 @@ def zawgyi_unicode_detection(input:str)->str:
 
 
 
-
+"""
+N grams
+"""
 def n_grams(k, input, option):
     if (k <1):
       return ""
