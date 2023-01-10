@@ -4,14 +4,11 @@ import pandas as pd
 import re
 import utilities
 
-#import librosa
-#from pydub import AudioSegment
-
 st.sidebar.image(
     "images/peacock-3.png",
     width=200,
 )
-st.sidebar.markdown("<h3 style='text-align: center;'>NLP Tools</h3>", unsafe_allow_html=True)
+st.sidebar.markdown("<h3 style='text-align: center;'>NLP Tool</h3>", unsafe_allow_html=True)
 select = pd.DataFrame()
 select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'syllable-tokenization-zawgyi', 'multilingual_semi_syllable_tokenization', 'syllable/character-n-grams', 'detect-email', 'burmese2braille(Muu Haung)', 'zawgyi-unicode-detection','valid-parantheses', 'remove-characters']
 option = st.sidebar.selectbox(
