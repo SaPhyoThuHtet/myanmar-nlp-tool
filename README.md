@@ -1,15 +1,16 @@
 # nlp-tool
- Name | Type | Time and Space Complexity| Usage|Note
-| ------------- | ------------- |------------- |------------- |------------- |
-Character Break| Used Regular Expression |O(n), O(1)|Can be used for any language.
-Syllable Tokenization (Unicode)| Regular Expression |O(n), O(1)| Can be used for Unicode data of Myanmar (Burmese), Rakhine, Pali, and Paoh Languages.
-Syllable Tokenization (Zawgyi)| Regular Expression |O(n), O(1)| Can be used for Zawgyi Encoding Myanmar (Burmese) Language.
-Multilingual Semi-syllable Tokenization (Unicode)|Regular Expression|O(n), O(1)|Can be used for Unicode Encoding Lao, Kannada, Oriya, Gujarati, Malayalam, Khmer, Bengali, Sinhala, Tamil, Mon, Pali and Sanskrit, Sagaw Karen, Western Poh Karen, Eastern Poh Karen, Geba Karen, Kayah, Rumai Palaung, Khamathi Shan, Aiton and Phake, Burmese (Myanmar), Paoh, Rakhine Languages). Can also be used as a word break for English and charcter break for any other languages.|I got this new idea while working in keywords detection in burmese and other two languages. Regarding keywords detection, the word like "ဘောမ" can be found in the sentence like "သင်္ဘောမျိုး" and the scanerio is irrelevant. And luckily I found an alternative that would be helpful for three languages. Here, semi-syllable does not refer to the minor syllable in phonology. Instead, it is new tokenization that does not break into a full syllable mode. Now I found that it is useful in keyword detection to reduce False Positive errors. (I may explain why keywords detection later)The beauty of this tokenization would be you don't need to know much about the nature of the specific language. It will especially work for a similar script like Brahmic Script. Since it is in the initial state, it may have some errors.
-Burmese to Braille (Muu Haung) Converter|Regular Expression|O(n), O(1)|Can be used to change from burmese to burmese braille (Muu Haung)| The brialle to burmese dictonary may need to be updated. The data for the dicitonary is prepared by Phyo Thu Htet, Naing Linn Phyo and Thiha Nyein.
-Detect Email|Regular Expression|O(n), O(1)|Can be used to detect emails in the text<br>|E.g. Input: ဒီနေ့တော့ phyothuhtet39@gmail.com ဆီကို mail  ပို့ရမယ်။ နေဉီး သူက Microsoft Mail phyothuhtet@studentambassadors.com ကို သုံးတာလားမေးကြည့်ပါဦး။ ငါ ayethida89.young@utycc.edu.mm  ကနေ ပို့လိုက်မယ်။, Output: ayethida89.young@utycc.edu.mm;phyothuhtet39@gmail.com;phyothuhtet@studentambassadors.com
-Valid Parantheses|Stack|O(n), O(n)|Return True if the user input is valid False if it is not<br>
-Remove these characters|Stack|O(n), O(n)|Remove the specified characters<br>
-Burmese Sentence Level Zawgyi Unicode Detection|Machine Learning||
+ No|Name | Type | Time and Space Complexity| Usage|Note
+| -------------| ------------- | ------------- |------------- |------------- |------------- |
+1|Character Break| Used Regular Expression |O(n), O(1)|Can be used for any language.
+2|Syllable Tokenization (Unicode)| Regular Expression |O(n), O(1)| Can be used for Unicode data of Myanmar (Burmese), Rakhine, Pali, and Paoh Languages.
+3|Syllable Tokenization (Zawgyi)| Regular Expression |O(n), O(1)| Can be used for Zawgyi Encoding Myanmar (Burmese) Language.
+4|Multilingual Semi-syllable Tokenization (Unicode)|Regular Expression|O(n), O(1)|Can be used for Unicode Encoding Lao, Kannada, Oriya, Gujarati, Malayalam, Khmer, Bengali, Sinhala, Tamil, Mon, Pali and Sanskrit, Sagaw Karen, Western Poh Karen, Eastern Poh Karen, Geba Karen, Kayah, Rumai Palaung, Khamathi Shan, Aiton and Phake, Burmese (Myanmar), Paoh, Rakhine Languages). Can also be used as a word break for English and charcter break for any other languages.|I got this new idea while working in keywords detection in burmese and other two languages. Regarding keywords detection, the word like "ဘောမ" can be found in the sentence like "သင်္ဘောမျိုး" and the scanerio is irrelevant. And luckily I found an alternative that would be helpful for three languages. Here, semi-syllable does not refer to the minor syllable in phonology. Instead, it is new tokenization that does not break into a full syllable mode. Now I found that it is useful in keyword detection to reduce False Positive errors. (I may explain why keywords detection later)The beauty of this tokenization would be you don't need to know much about the nature of the specific language. It will especially work for a similar script like Brahmic Script. Since it is in the initial state, it may have some errors.
+5|Burmese to Braille (Muu Haung) Converter|Regular Expression|O(n), O(1)|Can be used to change from burmese to burmese braille (Muu Haung)| The brialle to burmese dictonary may need to be updated. The data for the dicitonary is prepared by Phyo Thu Htet, Naing Linn Phyo and Thiha Nyein.
+6|Detect Email|Regular Expression|O(n), O(1)|Can be used to detect emails in the text<br>|E.g. Input: ဒီနေ့တော့ phyothuhtet39@gmail.com ဆီကို mail  ပို့ရမယ်။ နေဉီး သူက Microsoft Mail phyothuhtet@studentambassadors.com ကို သုံးတာလားမေးကြည့်ပါဦး။ ငါ ayethida89.young@utycc.edu.mm  ကနေ ပို့လိုက်မယ်။, Output: ayethida89.young@utycc.edu.mm;phyothuhtet39@gmail.com;phyothuhtet@studentambassadors.com
+7|Burmese Sentence Level Zawgyi Unicode Detection|Machine Learning||
+8|Valid Parantheses|Stack|O(n), O(n)|Return True if the user input is valid False if it is not<br>
+9|Remove these characters|Stack|O(n), O(n)|Remove the specified characters<br>
+
 
 
 ### Streamlit
