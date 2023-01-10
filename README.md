@@ -1,5 +1,6 @@
 # nlp-tool
-<p align="center"><img src="https://github.com/SaPhyoThuHtet/nlp-tool/blob/main/images/peacock-3.png" width="500" height="534"></p>
+<p align="center"><img src="https://github.com/SaPhyoThuHtet/nlp-tool/blob/main/images/peacock-3.png" width="100" height="100"></p>
+
  No|Name | Type | Time and Space Complexity| Usage|Note
 | -------------| ------------- | ------------- |------------- |------------- |------------- |
 1|Character Break| Used Regular Expression |O(n), O(1)|Can be used for any language.
