@@ -49,6 +49,8 @@ if (option == "valid-parantheses"):
     st.write("Output:", result)
                                
 if(option == "chracter-tokenization"):
+    st.markdown("<h4 style='text-align: center;'>Character Tokenization Tokenization</h4>", unsafe_allow_html=True)
+    st.write("\n")
     user_input = st.text_input("Input", "အမုန်းမပွားရဘူးနော်")
     result = re.sub(r"([^\s])",r"\1 ", user_input)   
     st.write("Output:",result)
@@ -84,6 +86,8 @@ if (option == 'multilingual_semi_syllable_tokenization'):
     st.write("Output:", result)
     
 if(option == "detect-email"):
+     st.markdown("<h4 style='text-align: center;'>Email Detection</h4>", unsafe_allow_html=True)
+     st.write("\n")
      user_input = st.text_input("Input", "ဒီနေ့တော့ phyothuhtet39@gmail.com ဆီကို mail  ပို့ရမယ်။ နေဉီး သူက Microsoft Mail phyothuhtet@studentambassadors.com ကို သုံးတာလားမေးကြည့်ပါဦး။ ငါ ayethida89.young@utycc.edu.mm  ကနေ ပို့လိုက်မယ်။")
      emails = re.findall(r'[\w\.]+@[\w]+(?:\.[\w]+)+', user_input.strip())
      st.write("Emails:",";".join(sorted(emails)))
