@@ -32,14 +32,8 @@ Text Classification with Zero Shot and Few Shot Learning pdf: https://github.com
 
 Zero Shot Example Notebook: https://colab.research.google.com/drive/1jocViLorbwWIkTXKwxCOV9HLTaDDgCaw?usp=sharing (This is the original notebook provided by hugging face)
 
-## References
-1. Unicode Character Table, https://jrgraphix.net/r/Unicode/1000-109F
-2. Rabbit Converter, http://www.rabbit-converter.org/
-3. NLP Class UTYCC, https://github.com/ye-kyaw-thu/NLP-Class
-4. Y. K. Thu et al., "sylbreak4all: Regular Expressions for Syllable Breaking of Nine Major Ethnic Languages of Myanmar," 2021 16th International Joint Symposium on Artificial Intelligence and Natural Language Processing (iSAI-NLP), 2021, pp. 1-6, doi: 10.1109/iSAI-NLP54397.2021.9678188.
 
-
-## Acknowledgment
+### Acknowledgment
 I would like to thank Dr. Ye Kyaw Thu, Dr. Hnin Aye Thant, Ma Aye Hninn Khine, ​and Ma Yi Yi Chan Myae Win Shein for their guidance, support, and suggestions. The skills acquired from Dr. Ye Kyaw Thu's NLP Class helped me a lot in order to develop new ideas in NLP Field and this repo. And a shoutout to the creators of Rabbit Converter and jrgraphix.net's Unicode Character Table. These tools were super helpful to develop nlp-concepts especially for Burmese Language. Thanks.
 
 ### License
@@ -64,3 +58,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+### References
+1. Unicode Character Table, https://jrgraphix.net/r/Unicode/1000-109F
+2. Rabbit Converter, http://www.rabbit-converter.org/
+3. NLP Class UTYCC, https://github.com/ye-kyaw-thu/NLP-Class
+4. Y. K. Thu et al., "sylbreak4all: Regular Expressions for Syllable Breaking of Nine Major Ethnic Languages of Myanmar," 2021 16th International Joint Symposium on Artificial Intelligence and Natural Language Processing (iSAI-NLP), 2021, pp. 1-6, doi: 10.1109/iSAI-NLP54397.2021.9678188.
