@@ -1,5 +1,4 @@
-# nlp-tool
-<p align="center"><img src="https://github.com/SaPhyoThuHtet/nlp-tool/blob/main/images/peacock-3.png" width="100" height="100"></p>
+<p align="center"><img src="https://github.com/SaPhyoThuHtet/nlp-tool/blob/main/images/peacock-3.png" width="150" height="100"></p># nlp-tool
 
  No|Name | Type | Time and Space Complexity| Usage|Note
 | -------------| ------------- | ------------- |------------- |------------- |------------- |
