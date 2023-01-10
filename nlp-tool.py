@@ -14,7 +14,7 @@ select = pd.DataFrame()
 select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'syllable-tokenization-zawgyi', 'multilingual_semi_syllable_tokenization', 'syllable/character-n-grams', 'detect-email', 'burmese2braille(Muu Haung)', 'zawgyi-unicode-detection','valid-parantheses', 'remove-characters']
 option = st.sidebar.selectbox(
     '',select['topics'])
-st.sidebar.markdown("MIT License: Copyright (c) 2021 Sa Phyo Thu Htet. Please feel free to use this tool.")
+st.sidebar.markdown("Copyright (c) 2021 Sa Phyo Thu Htet")
 if (option == "zawgyi-unicode-detection"):
     
     st.markdown("<h4 style='text-align: center;'>Burmese Sentence Level Zawgyi Unicode Detection</h4>", unsafe_allow_html=True)
