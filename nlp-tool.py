@@ -46,7 +46,7 @@ if (option == "valid-parantheses"):
     st.write("Output:", result)
                                
 if(option == "chracter-tokenization"):
-    st.markdown("<h4 style='text-align: center;'>Character Tokenization Tokenization</h4>", unsafe_allow_html=True)
+    st.markdown("<h4 style='text-align: center;'>Character Tokenization</h4>", unsafe_allow_html=True)
     st.write("\n")
     user_input = st.text_input("Input", "အမုန်းမပွားရဘူးနော်")
     result = re.sub(r"([^\s])",r"\1 ", user_input)   
