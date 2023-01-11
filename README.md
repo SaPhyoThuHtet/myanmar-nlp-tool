@@ -59,6 +59,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+## Bibtex
+@article{SaPhyoThuHtet,
+  title={nlp-tool},
+  author={Phyo Thu Htet},
+  journal={https://github.com/SaPhyoThuHtet/nlp-tool},
+  volume={2},
+  year={2021-2023}
+}
+
 ## References
 1. Unicode Character Table, https://jrgraphix.net/r/Unicode/1000-109F
 2. Rabbit Converter, http://www.rabbit-converter.org/
