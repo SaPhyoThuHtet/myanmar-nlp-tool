@@ -60,6 +60,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Bibtex
+```
 @article{SaPhyoThuHtet,
   title={nlp-tool},
   author={Phyo Thu Htet},
@@ -67,6 +68,7 @@ SOFTWARE.
   volume={2},
   year={2021-2023}
 }
+```
 
 ## References
 1. Unicode Character Table, https://jrgraphix.net/r/Unicode/1000-109F
