@@ -55,7 +55,7 @@ def n_grams(k, input, option):
         i = syllable_tokenization(input)
         st.write("Syllable Tokenization", i)
         
-    i = i.strip().split()
+    i = i.strip().split(" ")
     st.write(i)
     if (k>len(i)):
       k = len(i)
