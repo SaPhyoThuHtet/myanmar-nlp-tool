@@ -11,9 +11,9 @@
 5|Burmese to Braille (Muu Haung) Converter|Regular Expression|O(n), O(1)|Can be used to change from burmese to burmese braille (Muu Haung)| The brialle to burmese dictonary may need to be updated. The data for the dicitonary is prepared by Phyo Thu Htet, Naing Linn Phyo and Thiha Nyein.
 6|Detect Email|Regular Expression|O(n), O(1)|Can be used to detect emails in the text<br>|E.g. Input: ဒီနေ့တော့ phyothuhtet39@gmail.com ဆီကို mail  ပို့ရမယ်။ နေဉီး သူက Microsoft Mail phyothuhtet@studentambassadors.com ကို သုံးတာလားမေးကြည့်ပါဦး။ ငါ ayethida89.young@utycc.edu.mm  ကနေ ပို့လိုက်မယ်။, Output: ayethida89.young@utycc.edu.mm;phyothuhtet39@gmail.com;phyothuhtet@studentambassadors.com
 7|Burmese Sentence Level Zawgyi Unicode Detection|Machine Learning||
-8|Valid Parantheses|Stack|O(n), O(n)|Return True if the user input is valid False if it is not<br>
-9|Remove these characters|Stack|O(n), O(n)|Remove the specified characters<br>
 
+## Python Package
+The python package include Character Tokenization, Syllable Tokenization (Burmese Unicode), Syllable Tokenization (Burmese Zawgyi), Multilingual Semi Syllable Tokenization,
 
 
 ## Streamlit
