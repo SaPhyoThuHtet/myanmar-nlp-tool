@@ -64,7 +64,7 @@ def n_grams(k, input, option):
     result = ''.join([str(element) for element in prev])
     for j in range(k, len(i)):
       prev = prev[1:]+ [i[j]]
-      result += " "+''.join([str(element) for element in prev])
+      result += "--------"+''.join([str(element) for element in prev])
     return result
 
 def remove_chars(chars, text):
