@@ -60,7 +60,7 @@ def n_grams(k, input, option):
     if (k>len(i)):
       k = len(i)
     prev = i[0:k]
-    print(prev)
+    st.write(prev)
     result = ''.join([str(element) for element in prev])
     for j in range(k, len(i)):
       prev = prev[1:]+ [i[j]]
