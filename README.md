@@ -66,7 +66,7 @@ SOFTWARE.
   author={Phyo Thu Htet},
   journal={https://github.com/SaPhyoThuHtet/nlp-tool},
   volume={2},
-  year={2021-2023}
+  year={2019-2023}
 }
 ```
 
