@@ -20,7 +20,7 @@ if (option == "keywords-detection"):
      st.write("Please use ||| to delimt between different keywords")
      lexicon = st.text_input("Text Input:", "တောင်းစုတ်|||ပလုံးစုတ်|||punnets|||discard")
      text = st.text_input("Text Input:", "တောင်းစုတ် ပလုံးစုတ်သာ ပစ်ရိုးထုံးစံ ရှိသည်။ သားဆိုးသမီးဆိုးကို ပစ်ရိုးထုံးစံမရှိ။ Discard only bad baskets and punnets, not bad sons and daughters.")
-     st.write("Detected Keywords":, utilities.keywords_detection(lexicon, text))
+     st.write("Detected Keywords:", utilities.keywords_detection(lexicon, text))
     
 if (option == "zawgyi-unicode-detection"):
     
