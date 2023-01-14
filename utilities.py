@@ -43,6 +43,7 @@ def zawgyi_unicode_detection(input:str)->str:
 Keywords Detection
 """
 def keywords_detection(lexicon:str, input:str):
+    keywords = ""
     for i in lexicon.strip().split("|||"):
         keywords +=i.lower().replace("$","\$").replace(" ", "")+"(?![ါ-ှ]|[က-အ]်)"+"|"
     keywords[-1] = ""
