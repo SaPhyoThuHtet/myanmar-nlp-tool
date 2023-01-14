@@ -17,6 +17,7 @@ option = st.sidebar.selectbox(
 st.sidebar.markdown("Copyright (c) 2021 Sa Phyo Thu Htet")
 
 if (option == "keywords-detection"):
+     st.markdown("<h4 style='text-align: center;'>Keywords Detection</h4>", unsafe_allow_html=True)
      st.write("Please use ||| to delimt between different keywords")
      lexicon = st.text_input("Text Input:", "တောင်းစုတ်|||ပလုံးစုတ်|||punnets|||discard")
      text = st.text_input("Text Input:", "တောင်းစုတ် ပလုံးစုတ်သာ ပစ်ရိုးထုံးစံ ရှိသည်။ သားဆိုးသမီးဆိုးကို ပစ်ရိုးထုံးစံမရှိ။ Discard only bad baskets and punnets, not bad sons and daughters.")
