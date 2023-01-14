@@ -39,8 +39,15 @@ def zawgyi_unicode_detection(input:str)->str:
     testing_padded = pad_sequences(testing_sequences,maxlen=150, truncating='post',padding='post')
     return "Unicode Encoding" if model.predict(testing_padded)[0][0]>=0.5 else "Zawgyi Encoding"
 
-
-
+"""
+Keywords Detection
+"""
+def keywords_detection(lexicon:string, input:string):
+    for i in lexicon.strip().split("|||"):
+        keywords +=i.lower().replace("$","\$").replace(" ", "")+"(?![ါ-ှ]|[က-အ]်)"+"|"
+    keywords[-1] = ""
+    
+    return re.findall(f"{keywords}",input)
 
 """
 N grams
