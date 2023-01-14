@@ -11,10 +11,17 @@ st.sidebar.image(
 st.sidebar.markdown("<h3 style='text-align: center;'>NLP Tool</h3>", unsafe_allow_html=True)
 
 select = pd.DataFrame()
-select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'syllable-tokenization-zawgyi', 'multilingual_semi_syllable_tokenization', 'syllable/character-n-grams', 'detect-email', 'burmese2braille(Muu Haung)', 'zawgyi-unicode-detection','valid-parantheses', 'remove-characters']
+select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'syllable-tokenization-zawgyi', 'multilingual_semi_syllable_tokenization', 'syllable/character-n-grams', 'keywords-detection','detect-email', 'burmese2braille(Muu Haung)', 'zawgyi-unicode-detection','valid-parantheses', 'remove-characters']
 option = st.sidebar.selectbox(
     '',select['topics'])
 st.sidebar.markdown("Copyright (c) 2021 Sa Phyo Thu Htet")
+
+if (option == "keywords-detection"):
+     st.write("Please use ||| to delimt between different keywords")
+     lexicon = st.text_input("Text Input:", "တောင်းစုတ်|||ပလုံးစုတ်|||punnets|||discard")
+     text = st.text_input("Text Input:", "တောင်းစုတ် ပလုံးစုတ်သာ ပစ်ရိုးထုံးစံ ရှိသည်။ သားဆိုးသမီးဆိုးကို ပစ်ရိုးထုံးစံမရှိ။ Discard only bad baskets and punnets, not bad sons and daughters.")
+     st.write("Detected Keywords": utilities.keywords_detection(lexicon, text))
+    
 if (option == "zawgyi-unicode-detection"):
     
     st.markdown("<h4 style='text-align: center;'>Burmese Sentence Level Zawgyi Unicode Detection</h4>", unsafe_allow_html=True)
