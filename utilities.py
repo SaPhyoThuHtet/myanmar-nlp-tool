@@ -47,7 +47,8 @@ def keywords_detection(lexicon:str, input:str):
     for i in lexicon.strip().lower().split("|||"):
         keywords +=i.lower().replace("$","\$").replace(" ", "")+"(?![ါ-ှ]|[က-အ]်)"+"|"
     keywords = keywords[0:-1]
-    return re.findall(f"{keywords}",input)
+    input = re.sub(r" ", r"", input)
+    return re.findall(f"{keywords}",input.lower())
 
 """
 N grams
