@@ -12,7 +12,7 @@ def syllable_tokenization(input:str)->str:
     return re.sub(r"(([A-Za-z0-9]+)|[က-အ|ဥ|ဦ](င်္|[က-အ][ှ]*[့း]*[်]|္[က-အ]|[ါ-ှႏꩻ][ꩻ]*){0,}|.)",r"\1 ", input)
 
 def character_tokenization(input:str)->str:
-    return re.sub(r"([^\s])",r"\1 ", input)   
+    return re.sub(r"([^\s])",r"\1      ", input)   
 
 def multilingual_semi_syllable_break(user_input):
   # Multilingual Semi Syllabe Break (Lao, Kannada, Oriya, Gujarati, Malayalam, Khmer, Bengali, Sinhala, Tamil, Shan, Mon, Pali and Sanskrit, Sagaw Karen, Western Poh Karen, Eastern Poh Karen, Geba Karen, Kayah, Rumai Palaung, Khamathi Shan, Aiton and Phake, Burmese (Myanmar), Paoh, Rakhine Languages)
