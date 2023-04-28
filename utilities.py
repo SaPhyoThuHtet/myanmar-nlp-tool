@@ -45,10 +45,10 @@ Keywords Detection
 def keywords_detection(lexicon:str, input:str):
     keywords = ""
     for i in lexicon.strip().lower().split("|||"):
-       keywords +=i.lower().replace("$","\$").replace(" ", "")+"(?![ါ-ှ]|[က-အ]်)"+"|"
+       keywords +=i.lower().replace("$","\$").replace(" ", "+")+"(?![ါ-ှ]|[က-အ]်)"+"|"
         #keywords +=i.lower().replace("$","\$")+"(?![ါ-ှ]|[က-အ]်)"+"|"
     keywords = keywords[0:-1]
-    #input = re.sub(r" ", r"", input)
+    #input = re.sub(r" ", r"+", input)
     return re.findall(f"{keywords}",input.lower())
 
 """
