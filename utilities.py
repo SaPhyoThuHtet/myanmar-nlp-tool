@@ -48,7 +48,7 @@ def keywords_detection(lexicon:str, input:str):
        keywords +=i.lower().replace("$","\$").replace(" ", "\+")+"(?![ါ-ှ]|[က-အ]်)"+"|"
         #keywords +=i.lower().replace("$","\$")+"(?![ါ-ှ]|[က-အ]်)"+"|"
     keywords = keywords[0:-1]
-    #input = re.sub(r" ", r"\+", input)
+    input = re.sub(r" ", r"\+", input.strip())
     return re.findall(f"{keywords}",input.lower())
 
 """
