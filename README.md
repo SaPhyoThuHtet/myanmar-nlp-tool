@@ -13,10 +13,6 @@
 7|Keywords Detection|Regular Expression||
 8|Email Detection|Regular Expression|O(n), O(1)|Can be used to detect emails in the text<br>|E.g. Input: ဒီနေ့တော့ phyothuhtet39@gmail.com ဆီကို mail  ပို့ရမယ်။ နေဉီး သူက Microsoft Mail phyothuhtet@studentambassadors.com ကို သုံးတာလားမေးကြည့်ပါဦး။ ငါ ayethida89.young@utycc.edu.mm  ကနေ ပို့လိုက်မယ်။, Output: ayethida89.young@utycc.edu.mm;phyothuhtet39@gmail.com;phyothuhtet@studentambassadors.com
 
-## Python Package
-The python package include Character Tokenization, Syllable Tokenization (Burmese Unicode), Syllable Tokenization (Burmese Zawgyi), Multilingual Semi Syllable Tokenization,
-
-
 ## Streamlit
 
 ![ss](https://github.com/SaPhyoThuHtet/nlp-tools/blob/main/images/Screenshot%20from%202021-07-27%2016-52-42.png "Current Version")
