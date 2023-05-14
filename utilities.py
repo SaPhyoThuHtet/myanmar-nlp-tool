@@ -1,12 +1,13 @@
 import re
+import pickle
 import streamlit as st
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
-import pickle
 
-""""Tokenization"""    
+
+"""" Tokenization """    
 def syllable_tokenization(input:str)->str:
     #input = re.sub(r"\s", "", input.strip())
     return re.sub(r"(([A-Za-z0-9]+)|[က-အ|ဥ|ဦ](င်္|[က-အ][ှ]*[့း]*[်]|္[က-အ]|[ါ-ှႏꩻ][ꩻ]*){0,}|.)",r"\1 ", input)
@@ -39,9 +40,7 @@ def zawgyi_unicode_detection(input:str)->str:
     testing_padded = pad_sequences(testing_sequences,maxlen=150, truncating='post',padding='post')
     return "Unicode Encoding" if model.predict(testing_padded)[0][0]>=0.5 else "Zawgyi Encoding"
 
-"""
-Keywords Detection
-"""
+""" Keywords Detection """
 def keywords_detection(lexicon:str, input:str):
     keywords = ""
     for i in lexicon.strip().lower().split("|||"):
@@ -53,9 +52,7 @@ def keywords_detection(lexicon:str, input:str):
     #st.write(input)
     return re.findall(f"{keywords}",input.lower())
 
-"""
-N grams
-"""
+""" N grams """
 def n_grams(k, input, option):
     if (k <1):
       return ""
@@ -79,6 +76,11 @@ def n_grams(k, input, option):
       result += "--------"+''.join([str(element) for element in prev])
     return result
 
+
+
+
+""" Others """
+
 def remove_chars(chars, text):
   # remove the user input characters
   text2 =""
@@ -89,10 +91,13 @@ def remove_chars(chars, text):
     
   return text2
       
-      
+def valid_parantheses(user_input:input):
+    
+  """
+  input: a string
+  output: True if the parantheses have correct pairs, otherwise False
+  """
 
-
-def valid_parantheses(user_input):
   open_brackets = {"{", "(", "["}
   dic = {"}":"{", ")":"(", "]":"["}
   stack = []
@@ -113,36 +118,22 @@ def valid_parantheses(user_input):
   else:
             return True
    
-  
- # n-grams:#
-"""i = syllable_break(i)
-    print(i)
-    i = i.strip().split()
-    
-    original = k
-    if (k>len(i)):
-      k = len(i)
 
-    prev = i[0:k]
-    #print(prev)
 
-    result = ''.join([str(element) for element in prev])
-    #print(result)
+def emojis_removal(input:str)->str:
 
-    for j in range(k, len(i)):
-      prev = prev[1:]+ [i[j]]
-      #print(prev)
-      result += " "+''.join([str(element) for element in prev])
-      #print(result)
+  """
+  removal of emojis
+  input: a string
+  output: a string with emojis removal
+  """
 
-    print(result)
-    print()"""
-     
-            
-      
-   
-        
-  
-  
-
-  
+  emoji_pattern = re.compile("["
+                           u"\U0001F600-\U0001F64F"  # emoticons
+                           u"\U0001F300-\U0001F5FF"  # symbols & pictographs
+                           u"\U0001F680-\U0001F6FF"  # transport & map symbols
+                           u"\U0001F1E0-\U0001F1FF"  # flags (iOS)
+                           u"\U00002702-\U000027B0"
+                           u"\U000024C2-\U0001F251"
+                           "]+", flags=re.UNICODE)
+  return str(emoji_pattern.sub(r'', input))
