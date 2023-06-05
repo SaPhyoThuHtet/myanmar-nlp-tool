@@ -5,7 +5,7 @@ import re
 import utilities
 
 
-""" Streamlit User Interface """
+# Streamlit User Interface
 
 st.sidebar.image(
     "images/peacock-3.png",
@@ -20,7 +20,7 @@ option = st.sidebar.selectbox(
 st.sidebar.markdown("Copyright (c) 2021 Sa Phyo Thu Htet")
 
 
-""" Tokenization """
+# Tokenization
 if(option == "chracter-tokenization"):
     st.markdown("<h4 style='text-align: center;'>Character Tokenization</h4>", unsafe_allow_html=True)
     st.write("\n")
