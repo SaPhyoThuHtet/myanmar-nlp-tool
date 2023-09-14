@@ -20,7 +20,7 @@ def multilingual_semi_syllable_break(user_input):
   result = re.sub(r" +", " ", result)
   return result
 
-"""" Zawgyi Unicode Detection"""
+"""" Zawgyi Unicode Detection """
 @st.experimental_singleton
 def load_zawgyi_unicode_detection_model():    
     model = tf.keras.models.load_model("model/zawgyi-unicode-detection/zawgyiunicodedetectionstreamlit.h5")
@@ -39,9 +39,7 @@ def zawgyi_unicode_detection(input:str)->str:
     testing_padded = pad_sequences(testing_sequences,maxlen=150, truncating='post',padding='post')
     return "Unicode Encoding" if model.predict(testing_padded)[0][0]>=0.5 else "Zawgyi Encoding"
 
-"""
-Keywords Detection
-"""
+""" Keywords Detection """
 def keywords_detection(lexicon:str, input:str):
     keywords = ""
     for i in lexicon.strip().lower().split("|||"):
@@ -53,9 +51,7 @@ def keywords_detection(lexicon:str, input:str):
     st.write(input)
     return re.findall(f"{keywords}",input.lower())
 
-"""
-N grams
-"""
+""" N grams """
 def n_grams(k, input, option):
     if (k <1):
       return ""
@@ -113,36 +109,21 @@ def valid_parantheses(user_input):
   else:
             return True
    
-  
- # n-grams:#
-"""i = syllable_break(i)
-    print(i)
-    i = i.strip().split()
-    
-    original = k
-    if (k>len(i)):
-      k = len(i)
 
-    prev = i[0:k]
-    #print(prev)
+def emojis_removal(input:str)->str:
 
-    result = ''.join([str(element) for element in prev])
-    #print(result)
+  """
+  removal of emojis
+  input: a string
+  output: a string with emojis removal
+  """
 
-    for j in range(k, len(i)):
-      prev = prev[1:]+ [i[j]]
-      #print(prev)
-      result += " "+''.join([str(element) for element in prev])
-      #print(result)
-
-    print(result)
-    print()"""
-     
-            
-      
-   
-        
-  
-  
-
-  
+  emoji_pattern = re.compile("["
+                           u"\U0001F600-\U0001F64F"  # emoticons
+                           u"\U0001F300-\U0001F5FF"  # symbols & pictographs
+                           u"\U0001F680-\U0001F6FF"  # transport & map symbols
+                           u"\U0001F1E0-\U0001F1FF"  # flags (iOS)
+                           u"\U00002702-\U000027B0"
+                           u"\U000024C2-\U0001F251"
+                           "]+", flags=re.UNICODE)
+  return str(emoji_pattern.sub(r'', input)) 
