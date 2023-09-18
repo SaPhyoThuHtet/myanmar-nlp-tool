@@ -3,3 +3,5 @@ streamlit
 pydub
 librosa
 tensorflow
+seleniumbase
+webdriver-manager
