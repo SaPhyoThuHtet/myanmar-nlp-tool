@@ -5,3 +5,4 @@ librosa
 tensorflow
 seleniumbase
 webdriver-manager
+selenium
