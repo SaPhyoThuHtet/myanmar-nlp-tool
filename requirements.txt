@@ -1,6 +1,6 @@
 pandas
 streamlit
 tensorflow
-selenium==3.141.0
+selenium
 webdriver-manager
 
