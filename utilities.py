@@ -4,7 +4,25 @@ import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 import pickle
+
+@st.cache_resource
+def get_driver():
+    options = Options()
+    options.add_argument('--disable-gpu')
+    options.add_argument('--headless')
+    return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    
+    
+def crawl():
+    driver = get_driver()
+    driver.get("http://example.com")
+    st.code(driver.page_source)
+
 
 """" Tokenization """    
 def syllable_tokenization(input:str)->str:
@@ -137,12 +155,3 @@ def valid_parantheses(user_input):
 
     print(result)
     print()"""
-     
-            
-      
-   
-        
-  
-  
-
-  
