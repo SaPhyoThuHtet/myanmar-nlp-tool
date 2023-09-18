@@ -11,18 +11,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 import pickle
 
 
-def get_driver():
-    options = Options()
-    options.add_argument('--disable-gpu')
-    options.add_argument('--headless')
-    return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-    
-    
-def crawl():
-    driver = get_driver()
-    driver.get("http://example.com")
-    st.code(driver.page_source)
-
 
 """" Tokenization """    
 def syllable_tokenization(input:str)->str:
