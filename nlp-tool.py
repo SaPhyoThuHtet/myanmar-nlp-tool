@@ -14,7 +14,7 @@ st.sidebar.image(
 st.sidebar.markdown("<h3 style='text-align: center;'>NLP Tool</h3>", unsafe_allow_html=True)
 
 select = pd.DataFrame()
-select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'syllable-tokenization-zawgyi', 'multilingual_semi_syllable_tokenization', 'syllable/character-n-grams', 'keywords-detection','detect-email', 'burmese2braille(Muu Haung)', 'zawgyi-unicode-detection','valid-parantheses', 'remove-characters']
+select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'syllable-tokenization-zawgyi', 'multilingual_semi_syllable_tokenization', 'syllable/character-n-grams', 'keywords-detection','detect-email', 'burmese2braille(Muu Haung)', 'zawgyi-unicode-detection','valid-parantheses', 'remove-characters', 'crawl']
 option = st.sidebar.selectbox(
     '',select['topics'])
 st.sidebar.markdown("Copyright (c) 2021 Sa Phyo Thu Htet")
@@ -123,5 +123,8 @@ if (option == 'burmese2braille(Muu Haung)'):
      st.write("Muu Haung:", user_input)
      st.write("Back to Normal(Used RE):", to_normal)
      st.write("Output:", result)
+
+if (option == 'crawl'):
+    utilities.crawl()
     
     
