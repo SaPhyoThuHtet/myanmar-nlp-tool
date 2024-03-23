@@ -1,6 +1,4 @@
 pandas
 streamlit
 tensorflow
-selenium
-webdriver-manager
 
