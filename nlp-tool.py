@@ -14,7 +14,7 @@ st.sidebar.image(
 st.sidebar.markdown("<h3 style='text-align: center;'>NLP Tool</h3>", unsafe_allow_html=True)
 
 select = pd.DataFrame()
-select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'syllable-tokenization-zawgyi', 'multilingual_semi_syllable_tokenization', 'syllable/character-n-grams', 'keywords-detection','detect-email', 'burmese2braille(Muu Haung)', 'zawgyi-unicode-detection','valid-parantheses', 'remove-characters', 'crawl']
+select['topics'] = ['chracter-tokenization', 'syllable-tokenization', 'syllable-tokenization-zawgyi', 'multilingual_semi_syllable_tokenization', 'syllable/character-n-grams', 'keywords-detection','detect-email', 'burmese2braille(Muu Haung)', 'zawgyi-unicode-detection','valid-parantheses', 'remove-characters']
 option = st.sidebar.selectbox(
     '',select['topics'])
 st.sidebar.markdown("Copyright (c) 2021 Sa Phyo Thu Htet")
