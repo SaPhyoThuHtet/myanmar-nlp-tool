@@ -28,7 +28,7 @@ def load_zawgyi_unicode_detection_model():
     model = tf.keras.models.load_model("model/zawgyi-unicode-detection/zawgyiunicodedetectionstreamlit.h5")
     return model
 
-@st.experimental_singleton
+"""@st.experimental_singleton
 def load_zawgyi_unicode_tokenizer():    
     with open('model/zawgyi-unicode-detection/tokenizer.pickle', 'rb') as file:
         tokenizer = pickle.load(file)
@@ -39,7 +39,7 @@ def zawgyi_unicode_detection(input:str)->str:
     model = load_zawgyi_unicode_detection_model()
     testing_sequences = zawgyi_unicode_tokenizer.texts_to_sequences([syllable_tokenization(input)])
     testing_padded = pad_sequences(testing_sequences,maxlen=150, truncating='post',padding='post')
-    return "Unicode Encoding" if model.predict(testing_padded)[0][0]>=0.5 else "Zawgyi Encoding"
+    return "Unicode Encoding" if model.predict(testing_padded)[0][0]>=0.5 else "Zawgyi Encoding" """
 
 """
 Keywords Detection
