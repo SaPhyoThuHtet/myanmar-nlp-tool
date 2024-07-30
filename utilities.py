@@ -23,7 +23,7 @@ def multilingual_semi_syllable_break(user_input):
   return result
 
 """" Zawgyi Unicode Detection"""
-@st.experimental_singleton
+@st.cache_resource
 def load_zawgyi_unicode_detection_model():    
     model = tf.keras.models.load_model("model/zawgyi-unicode-detection/zawgyiunicodedetectionstreamlit.h5")
     return model
