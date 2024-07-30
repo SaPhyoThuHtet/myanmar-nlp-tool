@@ -22,7 +22,7 @@ def multilingual_semi_syllable_break(user_input):
   result = re.sub(r" +", " ", result)
   return result
 
-"""" Zawgyi Unicode Detection"""
+"""" Zawgyi Unicode Detection
 @st.cache_resource
 def load_zawgyi_unicode_detection_model():    
     model = tf.keras.models.load_model("model/zawgyi-unicode-detection/zawgyiunicodedetectionstreamlit.h5")
@@ -40,7 +40,7 @@ def zawgyi_unicode_detection(input:str)->str:
     testing_sequences = zawgyi_unicode_tokenizer.texts_to_sequences([syllable_tokenization(input)])
     testing_padded = pad_sequences(testing_sequences,maxlen=150, truncating='post',padding='post')
     return "Unicode Encoding" if model.predict(testing_padded)[0][0]>=0.5 else "Zawgyi Encoding"
-
+"""
 """
 Keywords Detection
 """
